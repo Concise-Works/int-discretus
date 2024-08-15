@@ -1,0 +1,100 @@
+%DEADLINES:
+%FIRST TWO SECTIONS BY JULY 16TH
+%ESTA JODA TIENE COPYRIGHT, NO ROBAR DE FORMA DESCARADA PLS att: mmanosalva%
+\documentclass[12pt,a4paper]{book} 
+\input{Configs/Configs}
+
+\begin{document}
+\renewcommand{\contentsname}{\vspace{0cm} Contents \vspace{-2cm}}
+
+\begin{titlepage}
+\vspace*{2cm}
+
+\noindent
+\vspace*{0.5cm}
+\titlefont{Title page}
+
+\vspace{1.5cm}
+\epigraph{<<``Epic Phrase''>>}%
+{ \textsc{Author}}
+\null\vfill
+\vspace*{1cm}
+\noindent
+\hfill
+\begin{minipage}{0.7\linewidth}
+    \begin{flushright}
+        \printauthor %CHANGE THE AUTHORS IN FORMAT.TEX%
+    \end{flushright}
+\end{minipage}
+%
+\begin{minipage}{0.02\linewidth}
+    \rule{1pt}{70pt}
+\end{minipage}
+\titlepagedecoration
+\end{titlepage}
+
+\let\cleardoublepage=\clearpage
+\tableofcontents
+\blankpage
+
+%-----------------------------
+
+\chapter{Introduction to\\ Discrete Structures}
+
+\input{Chapters/Intro/truthTables}
+\section{Arguments}
+\section{Quantified Statements}
+\section{Universal Statements}
+\section{Existential Statements}
+
+
+\createcover{Sets}{8cm}{...}
+
+\createcover{Functions \text{\&} Relations}{8cm}{...}
+\subsection{Injection, Surjection and Bijection}
+
+
+\createcover{Counting}{8cm}{...}
+%-----------------------------
+
+\chapter{Methods of\\ Mathematical Proof}
+
+\input {Chapters/Proofs/pre}
+
+\createcover{Modulu}{8cm}{...}
+\section{Introduction to Modular Arithmetic}
+
+\createcover{Proof Techniques}{8cm}{...}
+\section{Proof Writing}
+\subsection{Direct Proofs}
+\subsection{Proof by Cases}
+\section{Induction}
+\subsection{weak induction}
+\subsection{strong induction}
+\subsection{structural induction}
+
+\section{Contrapositive}
+
+\section{Contradiction}
+
+
+\input{Chapters/Proofs/direct}
+\
+
+
+\newpage\thispagestyle{empty}\blankpage
+\section{Direct Proofs}
+%-----------------------------
+
+\chapter{Introduction to Number Theory}
+
+\input{Chapters/2}
+
+\blankpage
+\bibliographystyle{unsrt}
+\bibliography{references}
+\nocite{*}
+
+
+
+\end{document}

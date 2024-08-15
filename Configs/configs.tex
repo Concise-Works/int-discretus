@@ -1,0 +1,63 @@
+%!TEX root = main.tex
+
+% Encoding and language
+\usepackage[T1]{fontenc} % Use T1 font encoding
+
+% Graphics and float
+\usepackage{graphicx} % Include graphics
+\usepackage{float} % Improved interface for floating objects
+
+% Tables
+\usepackage{booktabs} % Enhances the quality of tables
+\usepackage{tabularx} % Tables with adjustable-width columns
+\usepackage{array} % Extended array and tabular environments
+
+% Lists
+\usepackage{enumitem} % Control layout of itemize, enumerate, and description
+\usepackage{multicol} % Support for multiple columns
+
+% Colors
+\usepackage[usenames,dvipsnames]{xcolor} % Color support
+
+% Mathematics
+\usepackage{amsmath} % American Mathematical Society (AMS) math enhancements
+\usepackage{amsfonts} % Additional math fonts
+\usepackage{mathtools} % Enhancements to amsmath
+\usepackage{amsthm} % Enhanced theorem environments
+\usepackage{amssymb} % Additional math symbols
+\usepackage{bm} % Bold math symbols
+\usepackage{mathrsfs} % Support for \mathscr for script letters
+\usepackage{euler} % Use the Euler math font
+\usepackage{cancel} % Cancel terms in equations
+
+% Hyperlinks
+\usepackage[breaklinks=true]{hyperref} % Hyperlinks with breakable links
+
+% Miscellaneous
+\usepackage{lipsum} % Generate dummy text
+\usepackage{ulem} % Underline text and more
+\usepackage{colortbl} % Add color to table rows and cells
+\usepackage{tikz} % Create graphics programmatically
+\usepackage{geometry} % Easy layout customization
+\usepackage{subcaption} % Sub-figures and sub-tables
+
+% Custom commands for sets
+\newcommand\N{\ensuremath{\mathbb{N}}} % Set of natural numbers
+\newcommand\R{\ensuremath{\mathbb{R}}} % Set of real numbers
+\newcommand\Z{\ensuremath{\mathbb{Z}}} % Set of integers
+\renewcommand\O{\ensuremath{\emptyset}} % Empty set
+\newcommand\Q{\ensuremath{\mathbb{Q}}} % Set of rational numbers
+\newcommand\C{\ensuremath{\mathbb{C}}} % Set of complex numbers
+
+% Layout settings
+\geometry{
+ a4paper,
+ total={170mm,245mm},
+ left=20mm,
+ top=20mm,
+ }
+
+% Load custom configurations
+\input{Configs/Boxes} % Custom box configurations
+\input{Configs/Formats} % Custom format configurations
+\usepackage{caption} % For customizing captions
