@@ -1,0 +1,20 @@
+# Fdb version 4
+["xdvipdfmx"] 1723739940.30028 "main.xdv" "main.pdf" "main" 1723739940.73921 0
+  "main.xdv" 1723739940 564 0b1062688cedac502bfff3e5856d0c22 "xelatex"
+  (generated)
+  "main.pdf"
+  (rewritten before read)
+["xelatex"] 1723739939.70658 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1723739940.73879 0
+  "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1719393830 20144 67a5f8e0f9e445e8ec6834e595cebdc9 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1719393830 8448 358bf3de18513f057a13bdc6e6770c41 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd" 1719393830 2430 fce77d7e103eb98b6c4d486ae1d466c0 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-xetex.def" 1716480499 31593 96a7f07a08af85a2bbfee2e0a9cdbb50 ""
+  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1723739926 78 1a60ecaaaa2f939bfa5b841c366f7572 ""
+  "main.aux" 1723739940 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "main.tex" 1723739926 78 1a60ecaaaa2f939bfa5b841c366f7572 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.xdv"
+  (rewritten before read)
