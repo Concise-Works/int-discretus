@@ -1,18 +1,29 @@
 # Fdb version 4
-["xdvipdfmx"] 1723739940.30028 "main.xdv" "main.pdf" "main" 1723739940.73921 0
-  "main.xdv" 1723739940 564 0b1062688cedac502bfff3e5856d0c22 "xelatex"
+["xdvipdfmx"] 1723752183.86872 "main.xdv" "main.pdf" "main" 1723752184.15644 0
+  "main.xdv" 1723752183 3936 31561f6725540d392e0db4a323ba2940 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1723739939.70658 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1723739940.73879 0
+["xelatex"] 1723752183.45013 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1723752184.15544 0
   "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136765053 1300 b62933e007d01cfd073f79b963c01526 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1719393830 20144 67a5f8e0f9e445e8ec6834e595cebdc9 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1719393830 8448 358bf3de18513f057a13bdc6e6770c41 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd" 1719393830 2430 fce77d7e103eb98b6c4d486ae1d466c0 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-xetex.def" 1716480499 31593 96a7f07a08af85a2bbfee2e0a9cdbb50 ""
-  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1723739926 78 1a60ecaaaa2f939bfa5b841c366f7572 ""
-  "main.aux" 1723739940 32 3985256e7290058c681f74d7a3565a19 "xelatex"
-  "main.tex" 1723739926 78 1a60ecaaaa2f939bfa5b841c366f7572 ""
+  "Configs/configs.tex" 1723751101 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Sections/Sets/intro.tex" 1723752167 248 bb93df4d912939b4ccd37b95b5a3ed89 ""
+  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1723752182 214 a387985ccd0061941fe6b22dd99538da ""
+  "main.aux" 1723752183 145 84aa7db6d3f06b9c4bebba310ffef96d "xelatex"
+  "main.tex" 1723752182 214 a387985ccd0061941fe6b22dd99538da ""
   (generated)
   "main.aux"
   "main.log"
