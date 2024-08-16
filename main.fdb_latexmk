@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1723767055.90723 "main.xdv" "main.pdf" "main" 1723767056.22846 0
-  "main.xdv" 1723767055 44280 d9cbd2788846e3d88bc7a1e7ad7af5b2 "xelatex"
+["xdvipdfmx"] 1723767969.0121 "main.xdv" "main.pdf" "main" 1723767969.33476 0
+  "main.xdv" 1723767968 45780 3c3142c38b30bfba9dfa2e5593674f9c "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1723767055.01431 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1723767056.22329 0
+["xelatex"] 1723767968.12073 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1723767969.32919 0
   "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -125,9 +125,9 @@
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Configs/boxes.tex" 1723756349 1109 bf80e55444644f2adc0fb624417d8af4 ""
   "Configs/configs.tex" 1723762318 368 aabb5cff0fedc7760335d439fab9f4f7 ""
-  "Sections/sets.tex" 1723767054 4415 c9ada79c5d2d397bf27c5c56f4249f2f ""
+  "Sections/sets.tex" 1723767967 4646 2f3626001ecee26e87b1ec5c24720861 ""
   "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1723761605 208 5853b88867022e01bf426b82c1645d68 ""
-  "main.aux" 1723767055 579 2718902582ca1e81b4d1a39dea51f827 "xelatex"
+  "main.aux" 1723767968 579 2718902582ca1e81b4d1a39dea51f827 "xelatex"
   "main.tex" 1723761605 208 5853b88867022e01bf426b82c1645d68 ""
   (generated)
   "main.aux"
