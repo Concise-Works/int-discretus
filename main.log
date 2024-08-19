@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  15 AUG 2024 23:20
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  19 AUG 2024 19:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -379,7 +379,7 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (Configs/boxes.tex
 \c@theo=\count297
-)) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -389,7 +389,23 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (main.aux)
+))) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen194
+\captionmargin=\dimen195
+\caption@leftmargin=\dimen196
+\caption@rightmargin=\dimen197
+\caption@width=\dimen198
+\caption@indent=\dimen199
+\caption@parindent=\dimen256
+\caption@hangindent=\dimen257
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count298
+\c@continuedfloat=\count299
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -412,6 +428,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
  (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -433,21 +451,30 @@ Package mdframed Info: Not enough space on this page on input line 101.
 
 [2]
 Package mdframed Info: Not enough space on this page on input line 101.
-)
 
-[3] (main.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+
+
+[3]
+
+[4])
+
+[5] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14029 strings out of 409029
- 284353 string characters out of 5756741
+ 15391 strings out of 409029
+ 310474 string characters out of 5756741
  1932612 words of memory out of 5000000
- 36457 multiletter control sequences out of 15000+600000
+ 37814 multiletter control sequences out of 15000+600000
  564453 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,9n,110p,585b,997s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (3 pages, 45780 bytes).
+Output written on main.xdv (5 pages, 67520 bytes).

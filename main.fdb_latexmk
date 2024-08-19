@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1723778422.95437 "main.xdv" "main.pdf" "main" 1723778423.29906 0
-  "main.xdv" 1723778422 45780 275d764232e45b0c0b0450b7b92b4da7 "xelatex"
+["xdvipdfmx"] 1724110507.99174 "main.xdv" "main.pdf" "main" 1724110508.34167 0
+  "main.xdv" 1724110507 67520 f90767c89b04b16a36d641dd34d85574 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1723778421.9703 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1723778423.29331 0
+["xelatex"] 1724110506.89152 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724110508.3355 0
   "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -91,6 +91,8 @@
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1719393830 20144 67a5f8e0f9e445e8ec6834e595cebdc9 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1719393830 8448 358bf3de18513f057a13bdc6e6770c41 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd" 1719393830 2430 fce77d7e103eb98b6c4d486ae1d466c0 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty" 1696169587 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty" 1696169587 72619 ee90b6612147680fd73c3b1406a74245 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -124,10 +126,10 @@
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Configs/boxes.tex" 1723756349 1109 bf80e55444644f2adc0fb624417d8af4 ""
-  "Configs/configs.tex" 1723762318 368 aabb5cff0fedc7760335d439fab9f4f7 ""
-  "Sections/sets.tex" 1723778421 4673 3ace7daec4d9c80a9a948f4c4c02d242 ""
+  "Configs/configs.tex" 1724104872 600 f8d78b8c8fb84f1f5ef10c57328ac17a ""
+  "Sections/sets.tex" 1724110505 7648 76287e55997b6131d70f304b207185ab ""
   "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1723761605 208 5853b88867022e01bf426b82c1645d68 ""
-  "main.aux" 1723778422 579 9e45624c0e8f1b6709170b81af13f711 "xelatex"
+  "main.aux" 1724110507 1053 6eca48cda1a4632484d3c27b2428c637 "xelatex"
   "main.tex" 1723761605 208 5853b88867022e01bf426b82c1645d68 ""
   (generated)
   "main.aux"

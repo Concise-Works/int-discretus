@@ -111,10 +111,111 @@ equal to signs `$\leq$' and `$\geq$'.
 
 \underline{$\not\subseteq$ denotes `not a subset of.'}
 
-\vspace{2em}
+\vspace{1em}
+\noindent
+A set with no elements is called the empty set.
+\begin{theo}[Empty Set]{thm:empty_set}
+    Commonly denoted by $\emptyset$ or $\{\}$, refer to a collection with no objects.
+\end{theo}
+
+\noindent
+\textbf{Questions:}
+\begin{enumerate}
+    \item How many elements are in the set  $\{\emptyset\}$?
+    \item True or False: $\emptyset \subseteq \{\emptyset\}$.
+    \item True or False: $\emptyset \in \{\emptyset\}$.
+    \item True or False: $\emptyset \subseteq \emptyset$.
+    \item True or False: $\emptyset \subseteq \mathbb{Z}$.
+    \item True or False: $\emptyset \in \mathbb{Z}$.
+\end{enumerate}
+
+\noindent
+\textbf{Answers:}
+\begin{enumerate}
+    \item 1 element, the empty set.
+    \item True, the empty set is a subset of $\{\emptyset\}$.
+    \item True, the empty set is an element of $\{\emptyset\}$.
+    \item True, the empty set is a subset of itself.
+    \item True, the empty set is a subset of all sets.
+    \item False, the empty set is not an element of the integers.
+\end{enumerate}
+
+\noindent
+\textbf{Why?} $\emptyset=\{\}$, A collection is an object, but this one just contains no objects.\\
+
+\newpage
+\noindent
+Say we have an empty box. How many objects do we have? \textbf{Zero}.\\
+Put an empty box inside our original box. How many objects now? \textbf{One}!
+
+
+\begin{figure}[ht]
+    $\hspace{.2cm}$
+    \begin{tikzpicture}
+        % Set A
+        \draw[fill=gray!20] (0,0) rectangle (2.6cm,2.6cm);
+        \node at (-.5,2) {$Box_1$};
+
+        % arrow
+        \draw[->, thick] (3,1.3) -- (4.8,1.3);
+
+    \end{tikzpicture}
+    \begin{tikzpicture}
+        % Set A
+        \draw[fill=gray!20] (0,0) rectangle (2.6cm,2.6cm);
+        \node at (-.5,2) {$Box_1$};
+
+        % Set B
+        \draw[fill=OliveGreen!20] (1,1) rectangle (.1cm,.1cm);
+        \node at (1.5,0.5) {$Box_2$};
+
+        \hfill
+    \end{tikzpicture}
+    \caption{\centering \underline{$Box_1$ contains \textbf{1} object,} which is $Box_2$ (an empty box). Hence $\quad$
+        $Box_1$ represents $\{\{\}\}$ or $\{\emptyset\}$.}
+    \label{fig:empty_box}
+\end{figure}
+
+\noindent
+Counting the number of elements in a set is called the \textbf{cardinality} of the set.
+\begin{theo}[Cardinality]{thm:cardinality}
+    The number of elements in a set.\\
+    Denoted over a set $A$ as $|A|$.
+\end{theo}
+
+\noindent
+\textbf{For Example:}
+\begin{itemize}
+    \item $A = \{1, 2, 3\}$, $|A| = 3$.
+    \item $B = \{a, e, i, o, u\}$, $|B| = 5$.
+    \item $\mathbb{Z}$ the set of all integers, $|\mathbb{Z}| = \infty$.
+\end{itemize}
+
+\noindent
+\textbf{Questions:}\\
+What are the cardinalities of the following sets?
+\begin{enumerate}
+    \item $|\{1,2,3\}|$
+    \item $|\emptyset|$
+    \item $|\{\}|$
+    \item $|\{\emptyset\}|$
+    \item $|\{1,{2,3}\}|$
+\end{enumerate}
+
+\textbf{Answers:}
+\begin{enumerate}
+    \item 3
+    \item 0
+    \item 0
+    \item 1
+    \item 2
+\end{enumerate}
+
+\newpage
+
 \noindent
 Explicitly defining a set, say $\{1, 2, 3, ...\}$, is called \textbf{set-roster notation}.\\
-\textbf{Set-builder notation} enables us to define a set's properties.
+\textbf{Set-builder notation} enables more complex definitions of a set.
 
 \begin{theo}[Set-Builder Notation]{thm:set_builder}
     General form: $\{x \mid P(x)\}$,
