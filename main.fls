@@ -216,11 +216,11 @@ INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT .\Sections\sets.tex
-INPUT .\Sections\sets.tex
-INPUT .\Sections\sets.tex
-INPUT .\Sections\sets.tex
-INPUT Sections\sets.tex
+INPUT .\Sections\Sets\intro.tex
+INPUT .\Sections\Sets\intro.tex
+INPUT .\Sections\Sets\intro.tex
+INPUT .\Sections\Sets\intro.tex
+INPUT Sections\Sets\intro.tex
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
@@ -230,4 +230,9 @@ INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 OUTPUT main.xdv
+INPUT .\Sections\Sets\operations.tex
+INPUT .\Sections\Sets\operations.tex
+INPUT .\Sections\Sets\operations.tex
+INPUT .\Sections\Sets\operations.tex
+INPUT Sections\Sets\operations.tex
 INPUT main.aux
