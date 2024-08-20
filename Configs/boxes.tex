@@ -41,7 +41,7 @@
 \newenvironment{Tip}{%
     \refstepcounter{Tip}
     \mdfsetup{%
-        backgroundcolor=black!10,
+        backgroundcolor=OliveGreen!10,
         innertopmargin=12pt,
         innerbottommargin=6pt,
         linecolor=black,
@@ -55,9 +55,46 @@
     \end{mdframed}
 }
 
-% EXAMPLE BOXES
+% GREEN BOXES
+\newenvironment{greenbox}{%
+    \mdfsetup{%
+        backgroundcolor=OliveGreen!10,
+        innertopmargin=12pt,
+        innerbottommargin=12pt,
+        linecolor=black,
+        linewidth=0pt,
+        topline=false,
+        frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+    }
+    \begin{mdframed}[]\relax
 
-\newenvironment{example}{%
+        }{%
+    \end{mdframed}
+}
+
+% NOTE BOXES
+\newcounter{Note}[section]\setcounter{Note}{0}
+\renewcommand{\theNote}{\arabic{section}.\arabic{Note}}
+
+\newenvironment{Note}{%
+    \refstepcounter{Note}
+    \mdfsetup{%
+        backgroundcolor=black!10,
+        innertopmargin=10pt,
+        innerbottommargin=0pt,
+        linecolor=black,
+        linewidth=0pt,
+        topline=false,
+        frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+    }
+    \begin{mdframed}[]\relax
+        }{%
+    \end{mdframed}
+}
+
+% GENERIC BOXES
+
+\newenvironment{gbox}{%
     \mdfsetup{%
         backgroundcolor=white,
         innertopmargin=12pt,

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  20 AUG 2024 15:47
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  20 AUG 2024 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -380,6 +380,7 @@ Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (Configs/boxes.tex
 \c@theo=\count297
 \c@Tip=\count298
+\c@Note=\count299
 ) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
@@ -404,8 +405,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen257
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count299
-\c@continuedfloat=\count300
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
 ) (main.aux)
 \openout1 = `main.aux'.
 
@@ -449,11 +450,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 
 [2] (Sections/Sets/intro.tex) (Sections/Sets/defs.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
@@ -533,24 +529,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--48
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--77
-
- []
-
+Package mdframed Info: Not enough space on this page on input line 74.
 
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Package mdframed Info: Not enough space on this page on input line 74.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
 
@@ -563,12 +552,12 @@ L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15453 strings out of 409029
- 311825 string characters out of 5756741
+ 15471 strings out of 409029
+ 312110 string characters out of 5756741
  1932612 words of memory out of 5000000
- 37863 multiletter control sequences out of 15000+600000
+ 37881 multiletter control sequences out of 15000+600000
  564477 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,9n,110p,585b,997s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,9n,110p,585b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (10 pages, 117548 bytes).
+Output written on main.xdv (10 pages, 119664 bytes).
