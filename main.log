@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  19 AUG 2024 20:09
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  19 AUG 2024 22:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -438,7 +438,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
  (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (Sections/Sets/intro.tex
-Underfull \hbox (badness 10000) in paragraph at lines 13--1
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
@@ -447,19 +452,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--1
 [1
 
 ]
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 48--52
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
 
  []
 
-Package mdframed Info: Not enough space on this page on input line 101.
 
+
+[2]
 
 [3]
-Package mdframed Info: Not enough space on this page on input line 101.
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--187
 
  []
 
@@ -467,7 +474,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--145
 
 [4]
 
-[5]) (Sections/Sets/operations.tex)
+[5]) (Sections/Sets/operations.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+ []
+
+)
 
 [6] (main.aux)
  ***********
@@ -476,12 +488,12 @@ L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15403 strings out of 409029
- 310872 string characters out of 5756741
- 1932612 words of memory out of 5000000
- 37821 multiletter control sequences out of 15000+600000
+ 15408 strings out of 409029
+ 310995 string characters out of 5756741
+ 1936612 words of memory out of 5000000
+ 37826 multiletter control sequences out of 15000+600000
  564469 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,9n,110p,585b,997s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (6 pages, 70848 bytes).
+Output written on main.xdv (6 pages, 81156 bytes).

@@ -1,3 +1,7 @@
+\textbf{Opening Question:} What do we call a collection of things?
+does order or repetition matter? Can we contain collection of other collections? Is an empty collection
+considered a collection? How do we count members of a collection, and how do we define them?\\
+
 \subsection{Introduction to Sets}
 \hspace*{1em}
 In discrete math we work with some group of `things,' a thing or something
@@ -30,9 +34,8 @@ To expand on the previous example:
 \end{itemize}
 Curly braces denote a set, commas to separate elements,
 The `$...$' or `ellipse' indicate that the set continues indefinitely in that direction.
-When the set's pattern is clear to the reader, we use the dotted notation.
+When the set's pattern is clear to the reader, we use the dotted notation.\\
 
-\newpage
 \noindent
 Symbols used to denote members of a set:
 \begin{itemize}
@@ -140,10 +143,10 @@ A set with no elements is called the empty set.
     \item False, the empty set is not an element of the integers.
 \end{enumerate}
 
-\noindent
-\textbf{Why?} $\emptyset=\{\}$, A collection is an object, but this one just contains no objects.\\
 
-\newpage
+\noindent
+\underline{\textbf{Why 1?}} $\emptyset=\{\}$, A collection is an object, but this one just contains no objects.\\
+
 \noindent
 Say we have an empty box. How many objects do we have? \textbf{Zero}.\\
 Put an empty box inside our original box. How many objects now? \textbf{One}!
@@ -175,6 +178,13 @@ Put an empty box inside our original box. How many objects now? \textbf{One}!
         $Box_1$ represents $\{\{\}\}$ or $\{\emptyset\}$.}
     \label{fig:empty_box}
 \end{figure}
+
+\noindent
+\underline{\textbf{$\emptyset$ is a subset of every set?}} Take sets $A=\{\}$ and $B=\{1,2,3\}$\\
+By definition of a subset, every element in $A$ must be in $B$. It's difficult to
+argue elements in $A$ are indeed in $B$, but it's undeniable that elements in $A$ are not in $B$.
+Since our statement cannot be denied, it's \textbf{Vacuously true}.\\
+
 
 \noindent
 Counting the number of elements in a set is called the \textbf{cardinality} of the set.
