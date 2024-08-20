@@ -221,6 +221,11 @@ INPUT .\Sections\Sets\intro.tex
 INPUT .\Sections\Sets\intro.tex
 INPUT .\Sections\Sets\intro.tex
 INPUT Sections\Sets\intro.tex
+INPUT .\Sections\Sets\defs.tex
+INPUT .\Sections\Sets\defs.tex
+INPUT .\Sections\Sets\defs.tex
+INPUT .\Sections\Sets\defs.tex
+INPUT Sections\Sets\defs.tex
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm

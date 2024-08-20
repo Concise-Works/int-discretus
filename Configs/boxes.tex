@@ -1,4 +1,6 @@
 % \newcounter{theo}[section]\setcounter{theo}{0}
+
+% THEOREM BOXES
 \newcounter{theo}[section]\setcounter{theo}{0}
 \renewcommand{\thetheo}{\arabic{section}.\arabic{theo}}
 
@@ -30,3 +32,25 @@
 
     \begin{mdframed}[]\relax}{%
     \end{mdframed}}
+
+
+% TIP BOXES
+\newcounter{Tip}[section]\setcounter{Tip}{0}
+\renewcommand{\theTip}{\arabic{section}.\arabic{Tip}}
+
+\newenvironment{Tip}{%
+    \refstepcounter{Tip}
+    \mdfsetup{%
+        backgroundcolor=black!12,
+        innertopmargin=12pt,
+        innerbottommargin=6pt,
+        linecolor=black,
+        linewidth=0pt,
+        topline=false,
+        frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+    }
+    \begin{mdframed}[]\relax
+        \textbf{Tip:}
+        }{%
+    \end{mdframed}
+}

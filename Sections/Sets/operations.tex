@@ -1,16 +1,59 @@
 \subsection{Set Operations}
 
+% Subraction
+
+Combining the two sets, $\{1,2,3\}$ and $\{a,b,c\}$, produce the set $\{1,2,3,a,b,c\}$, which is
+is called the \textbf{union} of $A$ and $B$.\\
+
+\begin{theo}[Union]{thm:union}
+    The union of two sets $A$ and $B$ is the set of all elements that are in both sets.\\\\
+    Denoted: $A \cup B$.
+\end{theo}
+
+\noindent
+This is also known as a \textbf{disjunction}, which is a fancy term for the word ``OR".\\
+
+\noindent
+\textbf{For Example:}
+\begin{itemize}
+    \item $\{1, 2\} \cup \{2, 3\} = \{1, 2, 3\}$.
+    \item $\{1,2\} \cup \emptyset = \{1, 2\}$. There is nothing to add.
+    \item $\{1\} \cup \{\emptyset\} = \{1, \emptyset\}$. The empty set is an object.
+\end{itemize}
+
+\noindent
+The common elements of the two sets, $\{1,2,3\}$ and $\{2,3,4\}$, produce the set $\{2,3\}$,
+the \textbf{intersection}.\\
+
+\begin{theo}[Intersection]{thm:intersection}
+    The intersection of two sets $A$ and $B$ is the set of all elements that are in both sets.\\\\
+    Denoted: $A \cap B$.
+\end{theo}
+
+\noindent
+This is also known as a \textbf{conjunction}, which is a fancy term for the word ``AND".\\
+
+\textbf{For Example:}
+\begin{itemize}
+    \item $\{1, 2\} \cap \{2, 3\} = \{2\}$.
+    \item $\{1,2\} \cap \emptyset = \emptyset$. There is nothing to compare.
+    \item $\{1\} \cap \{\emptyset\} = \emptyset$. The empty set is not an object.
+\end{itemize}
+
+\noindent
+\textbf{Tip:} To lessen the confusion between $\cup$ and $\cap$, think, ``$\cap$" for ``AND",\\
+since $\cap$ looks like an ``A" without the line.\\
+
+\noindent
 The combination of $A=\{1,2,3\}$ and $B=\{a,b,c\}$ in order pairs are:
 $$(1,a), (1,b), (1,c), $$
 $$(2,a), (2,b), (2,c), $$
 $$(3,a), (3,b), (3,c)$$
 
 \noindent
-Putting the above objects in a set yields the \textbf{Cartesian} product of $A$ and $B$.
+Putting the above objects in a set yields the \textbf{Cartesian Product} of $A$ and $B$.
 
-% do Union, Intersection, Subraction
-
-\begin{theo}[Cartesian]{thm:cartesian}
+\begin{theo}[Cartesian Product]{thm:cartesian}
     The Cartesian product of two sets $A$ and $B$ is the set of all possible order
     pairs of elements from $A$ and $B$.\\\\
     Denoted: $A \times B$.
@@ -19,10 +62,27 @@ Putting the above objects in a set yields the \textbf{Cartesian} product of $A$ 
 \noindent
 \textbf{For Example:}
 \begin{itemize}
-    \item $\{1, 2\} \times \{a, b\}$, then $A \times B = \{(1,a), (1,b), (2,a), (2,b)\}$.
-    \item $A = \{1,2\}, B = \emptyset$, then $A \times B = \emptyset$. $B$ is empty, there is nothing to pair.
-    \item $A = \{1\}, B = \{\emptyset\}$, then $A \times B = \{(1,\emptyset)\}$. $B$ contains 1 object to pair.
+    \item $\{1, 2\} \times \{a, b\} = \{(1,a), (1,b), (2,a), (2,b)\}$.
+    \item $\{1,2\} \times \emptyset = \emptyset$. $B$ is empty, there is nothing to pair.
+    \item $\{1\} \times \{\emptyset\} = \{(1,\emptyset)\}$. $B$ contains 1 object to pair.
 \end{itemize}
-\textbf{Note Figure \ref{fig:empty_box}} from the previous section if the above caused confusion.
+\textbf{Note Figure \ref{fig:empty_box}} from the previous section if the above caused confusion.\\
+
+\noindent
+We have sets $A=\{1,2,3\}$ and $B=\{2,3,4\}$, if we remove the common elements
+$A$ has with $B$, i.e., take all in $A$ that is not in $B$, we get the set $\{1\}$, the \textbf{difference}.\\
+
+\begin{theo}[Difference]{thm:difference}
+    The difference of two sets $A$ and $B$ is the set of all elements that are in $A$ but not in $B$.\\\\
+    Denoted: $A - B$.
+\end{theo}
+
+\noindent
+\textbf{For Example:}
+\begin{itemize}
+    \item $\{1, 2\} - \{2, 3\} = \{1\}$.
+    \item $\{1,2\} - \emptyset = \{1, 2\}$. There is nothing to remove.
+    \item $\{1\} - \{\emptyset\} = \{1\}$. The empty set is not an object.
+\end{itemize}
 
 
