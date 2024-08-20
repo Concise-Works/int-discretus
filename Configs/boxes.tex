@@ -41,7 +41,7 @@
 \newenvironment{Tip}{%
     \refstepcounter{Tip}
     \mdfsetup{%
-        backgroundcolor=black!12,
+        backgroundcolor=black!10,
         innertopmargin=12pt,
         innerbottommargin=6pt,
         linecolor=black,
@@ -51,6 +51,24 @@
     }
     \begin{mdframed}[]\relax
         \textbf{Tip:}
+        }{%
+    \end{mdframed}
+}
+
+% EXAMPLE BOXES
+
+\newenvironment{example}{%
+    \mdfsetup{%
+        backgroundcolor=white,
+        innertopmargin=12pt,
+        innerbottommargin=6pt,
+        linecolor=black,
+        linewidth=1pt,
+        topline=true,
+        frametitleaboveskip=\dimexpr-\ht\strutbox\relax
+    }
+    \begin{mdframed}[]\relax
+        % Your content goes here
         }{%
     \end{mdframed}
 }

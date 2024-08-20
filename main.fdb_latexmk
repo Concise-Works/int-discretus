@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1724176425.47869 "main.xdv" "main.pdf" "main" 1724176425.79539 0
-  "main.xdv" 1724176425 112696 d428774b801a00cea4d5cbc2a749a59d "xelatex"
+["xdvipdfmx"] 1724183244.45266 "main.xdv" "main.pdf" "main" 1724183244.76199 0
+  "main.xdv" 1724183244 117548 0c6e7d654edee4c5fe0602acab903504 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1724176424.34856 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724176425.79043 0
+["xelatex"] 1724183243.35785 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724183244.75661 0
   "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -125,16 +125,18 @@
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "Configs/boxes.tex" 1724176423 1639 5e1dfa1a39d6f72d2675d83f2aa52ebd ""
+  "Configs/boxes.tex" 1724179357 2036 b9f9951ae82c7df429d3c67337816b78 ""
   "Configs/configs.tex" 1724113937 600 f8d78b8c8fb84f1f5ef10c57328ac17a ""
-  "Sections/Sets/defs.tex" 1724176370 9161 e3627e3bfd80161632783448b0b1b85a ""
+  "Sections/Sets/defs.tex" 1724180742 9118 374a1c18077ac870bdf45f92df0f0ca2 ""
   "Sections/Sets/intro.tex" 1724172103 335 58ab35674da2e3e9a0c599eb30ec4e0c ""
-  "Sections/Sets/operations.tex" 1724171741 3158 ebaf6ef38f0469ca3d85f04abe3a10d8 ""
-  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1724172134 292 6a216b1ebea8c449581397945991f997 ""
-  "main.aux" 1724176425 1460 ed111c4860c61e4a7e0e760d8e3c52d4 "xelatex"
-  "main.tex" 1724172134 292 6a216b1ebea8c449581397945991f997 ""
+  "Sections/Sets/operations.tex" 1724183241 3152 cbd54e486c5169d96edef6a75c47b039 ""
+  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1724178754 493 fcc36d40b928e8ad7e618e98b5cb579f ""
+  "main.aux" 1724183244 1548 90bb9675334e7647ff0f36e35e20036e "xelatex"
+  "main.tex" 1724178754 493 fcc36d40b928e8ad7e618e98b5cb579f ""
+  "main.toc" 1724183244 189 5b843ff651eea30a26cb565a8d80682c "xelatex"
   (generated)
   "main.aux"
   "main.log"
+  "main.toc"
   "main.xdv"
   (rewritten before read)

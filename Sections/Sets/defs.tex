@@ -21,8 +21,6 @@ Objects in a \textbf{set} are called \textbf{elements}.
     An object that is a member of a given set.
 \end{theo}
 
-
-\newpage
 \noindent
 To expand on the previous example:
 \begin{itemize}
@@ -31,15 +29,12 @@ To expand on the previous example:
     \item $\mathbb{Z} = \{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots\}$, elements of integer set.
 \end{itemize}
 Curly braces denote a set, commas separate elements, and
-the `$...$' or `ellipse' indicate that the set continues indefinitely in that direction.
-When the set's pattern \textbf{is clear} to the reader, we use the dotted notation.\\
+the `$...$' (ellipse) indicates an indefinite continuation, \underline{used only when the pattern \textbf{is clear.}}\\
+
+\newpage
 
 \noindent
-Symbols used to denote members of a set:
-\begin{itemize}
-    \item `$\in$' = in the set.
-    \item `$\notin$' = not in the set.
-\end{itemize}
+There is also notation to denote members of a set.
 
 \begin{theo}[Membership]{thm:membership}
     If $x$ is an element of set $A$, $x \in A$.
@@ -65,20 +60,7 @@ $b \notin A$, ``$b$ is not an element of $A$.''\\
     \end{itemize}
 \end{theo}
 
-\noindent
-\textbf{Tip:} In math we just define things, and then they are that thing. You can define things too!
-You could define a collection that infinitely has the word ``bees.'' We
-will now fancily call it ``\textbf{Bioths Non-determinant Sequence},'' or a\\
-BND-Sequence for short.\\
-$$\textnormal{BND-Sequence} = \{\textnormal{``bees''}, \textnormal{``bees''}, \textnormal{``bees''}, \textnormal{``bees''},
-    \textnormal{``bees''}, \textnormal{``bees''}, \ldots\}$$
 
-\noindent
-\textbf{Names are just names}, no matter how fancy a word may sound, they were labeled
-by another human like you who thought, ``this would be a \textit{kick-ass} name.'' So never be intimidated,
-complex ideas are just groupings of basic concepts.\\
-
-\newpage
 A subset is a set contained within another set. If the set $B$ is a subset of set $A$,
 then every element in $B$ is also in $A$ as shown in Figure \ref{fig:subset}:
 
@@ -109,6 +91,8 @@ then every element in $B$ is also in $A$ as shown in Figure \ref{fig:subset}:
 Written $B \subseteq A$ or $A \supseteq B$, similar to the less than or
 equal to signs `$\leq$' and `$\geq$'.
 
+\newpage
+
 \begin{theo}[Subset]{thm:subset}
     If every element in set $B$ is also in set $A$, then $B$ is a subset of $A$.\\
     Denoted: $B \subseteq A$ or $A \supseteq B$.
@@ -126,13 +110,14 @@ equal to signs `$\leq$' and `$\geq$'.
 \underline{$\not\subseteq$ denotes `not a subset of.'}
 
 \vspace{1em}
+
 \noindent
 A set with no elements is called the empty set.
 \begin{theo}[Empty Set]{thm:empty_set}
     Commonly denoted by $\emptyset$ or $\{\}$, refers to a collection with no objects.
 \end{theo}
 
-\newpage
+
 \noindent
 \textbf{Questions:}
 \begin{enumerate}
@@ -143,7 +128,19 @@ A set with no elements is called the empty set.
     \item True or False: $\emptyset \subseteq \mathbb{Z}$.
     \item True or False: $\emptyset \in \mathbb{Z}$.
 \end{enumerate}
+\begin{Tip}
+    Mathematicians define things? So can you! Let's define a collection that
+    infinitely repeats the string ``bees.'' We will fancily call it\\
+    ``\textbf{Bioths Non-determinant Sequence},'' or a BND-Sequence for short.
+    $$\textnormal{BND-Sequence} = \{\textnormal{``bees''}, \textnormal{``bees''}, \textnormal{``bees''}, \textnormal{``bees''},
+        \textnormal{``bees''}, \textnormal{``bees''}, \ldots\}$$
 
+    \noindent
+    \textbf{Names are names}, no matter how fancy, they were labeled
+    by another human like you who thought, ``this would be a \textit{kick-ass} name.''\\
+    Never be intimidated, complex ideas are just groupings of basic concepts.
+\end{Tip}
+\newpage
 \noindent
 \textbf{Answers:}
 \begin{enumerate}
@@ -155,10 +152,20 @@ A set with no elements is called the empty set.
     \item False, the empty set is not an element of the integers.
 \end{enumerate}
 
+\vspace{4em}
 
 \noindent
-\underline{\textbf{Why 1?}} $\emptyset=\{\}$, \underline{\textbf{A collection is an object}}. The emptyset is a collection,
+\underline{\textbf{Why (1.):}} \textbf{A collection is an object}. The emptyset is a collection,
 a collection without objects. Likewise, a house is still a house without furniture.\\
+
+\noindent
+\underline{\textbf{Why (5.):}} Take sets $A=\{\}$ and $B=\{1,2,3\}$\\
+By definition of a subset, every element in $A$ must be in $B$. It's difficult to
+argue elements in $A$ are indeed in $B$, but it's undeniable that elements in $A$ are not in $B$.
+Since our statement cannot be denied, it's \textbf{Vacuously true}.\\
+
+\noindent
+\hrulefill\\
 
 \noindent
 Say we have an empty box. How many objects do we have? \textbf{Zero}.\\
@@ -187,16 +194,13 @@ Put an empty box inside our original box. How many objects now? \textbf{One}!
 
         \hfill
     \end{tikzpicture}
-    \caption{\centering \underline{$Box_1$ contains 1 object,} which is $Box_2$ (an empty box). Hence $\quad$
+    \caption{\centering \underline{$Box_1$ contains 1 object,} which is $Box_2$, an empty box. Hence $\quad$
         $Box_1$ represents $\{\{\}\}$ or $\{\emptyset\}$.}
     \label{fig:empty_box}
 \end{figure}
 
 \noindent
-\underline{\textbf{$\emptyset$ is a subset of every set?}} Take sets $A=\{\}$ and $B=\{1,2,3\}$\\
-By definition of a subset, every element in $A$ must be in $B$. It's difficult to
-argue elements in $A$ are indeed in $B$, but it's undeniable that elements in $A$ are not in $B$.
-Since our statement cannot be denied, it's \textbf{Vacuously true}.\\
+\hrulefill\\
 
 \newpage
 \noindent
@@ -226,6 +230,18 @@ What are the cardinalities of the following sets?
     \item $|\{1,2,2,3,3,3\}|$
 \end{enumerate}
 
+\vspace{1em}
+
+\noindent
+Try to think about the answer before looking at the solution.\\
+Things stick when you struggle.\\
+
+\begin{Tip}
+    Whenever you approach a problem, always break things down into simple components.
+    ``What defines a set? What defines an element? What defines a subset? What defines cardinality?''\\
+\end{Tip}
+
+\noindent
 \textbf{Answers:}
 \begin{enumerate}
     \item 3
@@ -236,17 +252,11 @@ What are the cardinalities of the following sets?
     \item 3
 \end{enumerate}
 
-\noindent
-\begin{Tip}
-    Whenever you approach a problem, always break things down into simple components.
-    ``What defines a set? What defines an element? What defines a subset? What defines cardinality?''\\
-\end{Tip}
-
 \newpage
 
 \noindent
 Explicitly defining a set, say $\{1, 2, 3, ...\}$, is called \textbf{set-roster notation}.\\
-\textbf{Set-builder notation} enables more complex definitions of a set.
+\textbf{Set-builder notation} enables for more complex definitions of a set.
 
 \begin{theo}[Set-Builder Notation]{thm:set_builder}
     General form: $\{x \mid P(x)\}$,
