@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  21 AUG 2024 11:47
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  21 AUG 2024 15:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -391,7 +391,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+)) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
@@ -407,7 +407,7 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count300
 \c@continuedfloat=\count301
-) (main.aux)
+)) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -439,7 +439,8 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
  (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (main.toc)
+)
+No file main.toc.
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -460,6 +461,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 Underfull \hbox (badness 10000) in paragraph at lines 44--48
 
  []
+
+
+LaTeX Warning: Reference `fig:subset' on page 4 undefined on input line 65.
 
 
 
@@ -529,6 +533,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--48
  []
 
 
+LaTeX Warning: Reference `fig:empty_box' on page 9 undefined on input line 73.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
@@ -548,26 +555,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
-
- []
-
 )
+Runaway argument?
+{\centering $R={(1,2),(1,3)(2,3)} \label {fig:relates} \end {figure} \ETC.
+c:/Users/tuber/Documents/projects/not-so-discrete/main.tex:32: File ended while scanning use of \caption@xdblarg.
+<inserted text> 
+                \par 
+l.32 \input{Sections/Functions/defs.tex}
+                                        
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-[10] (main.aux)
+
+c:/Users/tuber/Documents/projects/not-so-discrete/main.tex:35: LaTeX Error: \begin{figure} on input line 10 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
- ) 
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+c:/Users/tuber/Documents/projects/not-so-discrete/main.tex:35: You can't use `\end' in internal vertical mode.
+\enddocument ...cument/end}\deadcycles \z@ \@@end 
+                                                  
+l.35 \end{document}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+c:/Users/tuber/Documents/projects/not-so-discrete/main.tex:35: LaTeX Error: \begin{figure} on input line 10 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/tuber/Documents/projects/not-so-discrete/main.tex:35: Missing } inserted.
+<inserted text> 
+                }
+l.35 \end{document}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+! Emergency stop.
+<*> ...Documents/projects/not-so-discrete/main.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 15489 strings out of 409029
- 312483 string characters out of 5756741
+ 15483 strings out of 409029
+ 312380 string characters out of 5756741
  1932612 words of memory out of 5000000
- 37896 multiletter control sequences out of 15000+600000
+ 37892 multiletter control sequences out of 15000+600000
  564477 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,9n,110p,585b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on main.xdv (10 pages, 127788 bytes).
+Output written on main.xdv (9 pages, 109028 bytes).
