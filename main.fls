@@ -244,4 +244,7 @@ INPUT .\Sections\Sets\operations.tex
 INPUT .\Sections\Sets\operations.tex
 INPUT .\Sections\Sets\operations.tex
 INPUT Sections\Sets\operations.tex
+INPUT .\Sections\Functions\defs.tex
+INPUT .\Sections\Functions\defs.tex
+INPUT Sections\Functions\defs.tex
 INPUT main.aux

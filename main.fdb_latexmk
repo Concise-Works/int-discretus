@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1724186055.37611 "main.xdv" "main.pdf" "main" 1724186055.72329 0
-  "main.xdv" 1724186055 119664 f89ac4834e666dd9c7313da5aee80445 "xelatex"
+["xdvipdfmx"] 1724255277.23174 "main.xdv" "main.pdf" "main" 1724255277.66179 0
+  "main.xdv" 1724255277 127788 bc785e856a460f5cca9c853c894beb24 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1724186054.18392 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724186055.71715 0
+["xelatex"] 1724255275.77807 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724255277.65694 0
   "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -127,13 +127,14 @@
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Configs/boxes.tex" 1724183972 2903 969e88d45db9d3210dcc994e598075da ""
   "Configs/configs.tex" 1724113937 600 f8d78b8c8fb84f1f5ef10c57328ac17a ""
+  "Sections/Functions/defs.tex" 1724255275 869 91bb5fe4355b31ce02d3710f689b3c5e ""
   "Sections/Sets/defs.tex" 1724185682 9126 d87be537b83e421955eb8cbd4e1edd84 ""
   "Sections/Sets/intro.tex" 1724184009 383 85f8f90a0b44f7cea2df529c808c5787 ""
   "Sections/Sets/operations.tex" 1724186053 3147 da1bf68e8b47f737d205784a89ff6a96 ""
-  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1724184576 507 f5b97204861d0953eebb47e7e806a470 ""
-  "main.aux" 1724186055 1635 02b8a471fb968fe7fe20b7fcbefa84d0 "xelatex"
-  "main.tex" 1724184576 507 f5b97204861d0953eebb47e7e806a470 ""
-  "main.toc" 1724186055 189 5b843ff651eea30a26cb565a8d80682c "xelatex"
+  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1724252870 567 7527001ce9f9d7df89ba54def4dfe749 ""
+  "main.aux" 1724255277 1852 6d1f7e212396e6a3e8bfcea2e8d4fbc5 "xelatex"
+  "main.tex" 1724252870 567 7527001ce9f9d7df89ba54def4dfe749 ""
+  "main.toc" 1724255277 324 5de51ea2947bb9a54a970317cf13cbfe "xelatex"
   (generated)
   "main.aux"
   "main.log"

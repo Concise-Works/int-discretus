@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  20 AUG 2024 16:34
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  21 AUG 2024 11:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -543,6 +543,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
 
+) (Sections/Functions/defs.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
 )
 
 [10] (main.aux)
@@ -552,12 +562,12 @@ L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15471 strings out of 409029
- 312110 string characters out of 5756741
+ 15489 strings out of 409029
+ 312483 string characters out of 5756741
  1932612 words of memory out of 5000000
- 37881 multiletter control sequences out of 15000+600000
+ 37896 multiletter control sequences out of 15000+600000
  564477 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,9n,110p,585b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (10 pages, 119664 bytes).
+Output written on main.xdv (10 pages, 127788 bytes).
