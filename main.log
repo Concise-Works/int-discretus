@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  21 AUG 2024 15:03
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  22 AUG 2024 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -379,8 +379,9 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (Configs/boxes.tex
 \c@theo=\count297
-\c@Tip=\count298
-\c@Note=\count299
+\c@Def=\count298
+\c@Tip=\count299
+\c@Note=\count300
 ) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
@@ -405,9 +406,13 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen257
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count300
-\c@continuedfloat=\count301
-)) (main.aux)
+\c@caption@flags=\count301
+\c@continuedfloat=\count302
+)) (main.aux
+
+LaTeX Warning: Label `fig:relates' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -439,8 +444,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
  (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-No file main.toc.
+) (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -463,43 +467,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--48
  []
 
 
-LaTeX Warning: Reference `fig:subset' on page 4 undefined on input line 65.
-
-
 
 [4]
-Package mdframed Info: Not enough space on this page on input line 99.
+Package mdframed Info: Not enough space on this page on input line 100.
 
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 157--160
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--166
+Underfull \hbox (badness 10000) in paragraph at lines 163--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
+Underfull \hbox (badness 10000) in paragraph at lines 206--208
 
  []
 
 
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 235--238
+Underfull \hbox (badness 10000) in paragraph at lines 239--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--242
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
 
  []
 
@@ -532,14 +533,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
-
-LaTeX Warning: Reference `fig:empty_box' on page 9 undefined on input line 73.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
 Package mdframed Info: Not enough space on this page on input line 74.
 
 
@@ -550,96 +543,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
 
-) (Sections/Functions/defs.tex
+) (Sections/Sets/summary.tex)
+
+[10] (Sections/Functions/defs.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+
+ []
+
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--135
+
+ []
+
 )
-Runaway argument?
-{\centering $R={(1,2),(1,3)(2,3)} \label {fig:relates} \end {figure} \ETC.
-c:/Users/tuber/Documents/projects/not-so-discrete/main.tex:32: File ended while scanning use of \caption@xdblarg.
-<inserted text> 
-                \par 
-l.32 \input{Sections/Functions/defs.tex}
-                                        
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+Underfull \hbox (badness 10000) in paragraph at lines 136--35
+
+ []
 
 
-c:/Users/tuber/Documents/projects/not-so-discrete/main.tex:35: LaTeX Error: \begin{figure} on input line 10 ended by \end{document}.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(main.aux)
+[12] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-c:/Users/tuber/Documents/projects/not-so-discrete/main.tex:35: You can't use `\end' in internal vertical mode.
-\enddocument ...cument/end}\deadcycles \z@ \@@end 
-                                                  
-l.35 \end{document}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-c:/Users/tuber/Documents/projects/not-so-discrete/main.tex:35: LaTeX Error: \begin{figure} on input line 10 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-c:/Users/tuber/Documents/projects/not-so-discrete/main.tex:35: Missing } inserted.
-<inserted text> 
-                }
-l.35 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)
-! Emergency stop.
-<*> ...Documents/projects/not-so-discrete/main.tex
-                                                  
-*** (job aborted, no legal \end found)
-
- 
+ ) 
 Here is how much of TeX's memory you used:
- 15483 strings out of 409029
- 312380 string characters out of 5756741
- 1932612 words of memory out of 5000000
- 37892 multiletter control sequences out of 15000+600000
+ 15654 strings out of 409029
+ 316026 string characters out of 5756741
+ 1934612 words of memory out of 5000000
+ 38058 multiletter control sequences out of 15000+600000
  564477 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,9n,110p,585b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on main.xdv (9 pages, 109028 bytes).
+
+Output written on main.xdv (12 pages, 178420 bytes).

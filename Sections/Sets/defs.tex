@@ -3,9 +3,9 @@
 In discrete math we work with some group of `things,' a thing or something
 we fancily call an \textbf{object}. A group or categorization of objects is called a set.
 
-\begin{theo}[Set]{thm:set}
+\begin{Def}[Set]{def:set}
     Is a collection of objects.
-\end{theo}
+\end{Def}
 
 \noindent
 \textbf{For Example:}
@@ -17,9 +17,9 @@ we fancily call an \textbf{object}. A group or categorization of objects is call
 \end{itemize}
 Objects in a \textbf{set} are called \textbf{elements}.
 
-\begin{theo}[Element]{thm:element}
+\begin{Def}[Element]{def:element}
     An object that is a member of a given set.
-\end{theo}
+\end{Def}
 
 \noindent
 To expand on the previous example:
@@ -36,10 +36,10 @@ the `$...$' (ellipse) indicates an indefinite continuation, \underline{used only
 \noindent
 There is also notation to denote members of a set.
 
-\begin{theo}[Membership]{thm:membership}
+\begin{Def}[Membership]{def:membership}
     If $x$ is an element of set $A$, $x \in A$.
     If $x$ is not an element of set $A$, $x \notin A$.
-\end{theo}
+\end{Def}
 
 \noindent
 \textbf{For Example:} Given $A = \{a, e, i, o, u\}$,\\
@@ -53,12 +53,12 @@ $b \notin A$, ``$b$ is not an element of $A$.''\\
     \item $B = \{a, b, c\} = \{a, b, c, a, b, c\}$.
 \end{itemize}
 
-\begin{theo}[Properties of a Set]{thm:set_props}
+\begin{Def}[Properties of a Set]{def:set_props}
     \begin{itemize}
         \item The order of elements do not matter.
         \item Duplicate elements are not counted.
     \end{itemize}
-\end{theo}
+\end{Def}
 
 
 A subset is a set contained within another set. If the set $B$ is a subset of set $A$,
@@ -67,9 +67,10 @@ then every element in $B$ is also in $A$ as shown in Figure \ref{fig:subset}:
 
 \begin{figure}[ht]
     \centering
+    \hspace{5.5em}
     \begin{tikzpicture}
         % Set A
-        \draw[fill=gray!20] (0,0) circle (2.6cm);
+        \draw[fill=gray!12] (0,0) circle (2.6cm);
         \node at (-1,1.3) {$A$};
 
         % Set B
@@ -82,7 +83,7 @@ then every element in $B$ is also in $A$ as shown in Figure \ref{fig:subset}:
         % Subset label
         \node at (4.16,0) {Subset};
     \end{tikzpicture}
-    \caption{}
+    \caption{$B$ is a subset of $A$.}
     \label{fig:subset}
 \end{figure}
 
@@ -93,10 +94,10 @@ equal to signs `$\leq$' and `$\geq$'.
 
 \newpage
 
-\begin{theo}[Subset]{thm:subset}
+\begin{Def}[Subset]{def:subset}
     If every element in set $B$ is also in set $A$, then $B$ is a subset of $A$.\\
     Denoted: $B \subseteq A$ or $A \supseteq B$.
-\end{theo}
+\end{Def}
 
 \noindent
 \textbf{For Example:}
@@ -113,9 +114,9 @@ equal to signs `$\leq$' and `$\geq$'.
 
 \noindent
 A set with no elements is called the empty set.
-\begin{theo}[Empty Set]{thm:empty_set}
+\begin{Def}[Empty Set]{def:empty_set}
     Commonly denoted by $\emptyset$ or $\{\}$, refers to a collection with no objects.
-\end{theo}
+\end{Def}
 
 
 \noindent
@@ -152,17 +153,20 @@ A set with no elements is called the empty set.
     \item False, the empty set is not an element of the integers.
 \end{enumerate}
 
-\vspace{4em}
+\vspace{2em}
 
 \noindent
-\underline{\textbf{Why (1.):}} \textbf{A collection is an object}. The emptyset is a collection,
-a collection without objects. Likewise, a house is still a house without furniture.\\
+\begin{greenbox}
+    \underline{\textbf{Why (1.):}} \textbf{A collection is an object}. The emptyset is a collection,
+    a collection without objects. Likewise, a house is still a house without furniture.\\
 
-\noindent
-\underline{\textbf{Why (5.):}} Take sets $A=\{\}$ and $B=\{1,2,3\}$\\
-By definition of a subset, every element in $A$ must be in $B$. It's difficult to
-argue elements in $A$ are indeed in $B$, but it's undeniable that elements in $A$ are not in $B$.
-Since our statement cannot be denied, it's \textbf{Vacuously true}.\\
+    \noindent
+    \underline{\textbf{Why (5.):}} Take sets $A=\{\}$ and $B=\{1,2,3\}$\\
+    By definition of a subset, every element in $A$ must be in $B$. It's difficult to
+    argue elements in $A$ are indeed in $B$, but it's undeniable that elements in $A$ are not in $B$.
+    Since our statement cannot be denied, it's \underline{\textbf{Vacuously true}}.\\
+\end{greenbox}
+
 
 \noindent
 \hrulefill\\
@@ -205,10 +209,10 @@ Put an empty box inside our original box. How many objects now? \textbf{One}!
 \newpage
 \noindent
 Counting the number of elements in a set is called the \textbf{cardinality} of the set.
-\begin{theo}[Cardinality]{thm:cardinality}
+\begin{Def}[Cardinality]{def:cardinality}
     The number of elements in a set.\\
     Denoted over a set $A$ as $|A|$.
-\end{theo}
+\end{Def}
 
 \noindent
 \textbf{For Example:}
@@ -258,17 +262,17 @@ Things stick when you struggle.\\
 Explicitly defining a set, say $\{1, 2, 3, ...\}$, is called \textbf{set-roster notation}.\\
 \textbf{set-builder notation} enables us to create more complex definitions.
 
-\begin{theo}[Set-Builder Notation]{thm:set_builder}
+\begin{Def}[Set-Builder Notation]{def:set_builder}
     General form: $\{x \mid P(x)\}$,
     \begin{itemize}
         \item $x$ = defines some variable.
         \item $``\mid"$ = is short hand for ``such that.''
         \item $P(x)$ = describes the properties $x$ must satisfy.
     \end{itemize}
-\end{theo}
+\end{Def}
 
 \noindent
-\textbf{For Example:} Lets define the set of even integers\\
+\textbf{For Example:} Lets Define the set of even integers\\
 \vspace{-1em}
 \begin{itemize}
     \item $\{x \mid x \textnormal{ is an even integer}\}$: ``$x$, such that, $x$ is an even integer.''
@@ -277,5 +281,5 @@ Explicitly defining a set, say $\{1, 2, 3, ...\}$, is called \textbf{set-roster 
 \end{itemize}
 
 \noindent
-\underline{\textbf{It's important to define exactly what variables are.}}
+\underline{\textbf{It's important to Define exactly what variables are.}}
 In the above, $x$ was stated directly as an integer. If not, x could be \underline{\textbf{water-balloons} or \textbf{puppies}.}
