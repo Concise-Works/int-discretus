@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1724358248.55765 "main.xdv" "main.pdf" "main" 1724358248.88527 0
-  "main.xdv" 1724358248 178420 7d7c40741a0469034e792bb3ab000a22 "xelatex"
+["xdvipdfmx"] 1724365771.60847 "main.xdv" "main.pdf" "main" 1724365772.04297 0
+  "main.xdv" 1724365771 225056 0405a75d8a2fd939ea14cdd118823f1d "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1724358247.2291 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724358248.88013 0
+["xelatex"] 1724365770.1375 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724365772.0352 0
   "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -87,6 +87,11 @@
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty" 1358197772 13829 94730e64147574077f8ecfea9bb69af4 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd" 1358197772 961 6518c6525a34feb5e8250ffa91731cff ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd" 1358197772 961 d02606146ba5601b5645f987c92e6193 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty" 1718270739 2222 2166a1f7827be30ddc30434e5efcee1b ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty" 1718270739 4173 d22509bc0c91281d991b2de7c88720dd ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty" 1718270740 88370 47fa7ec33a33125284e7c3c8193c6ce1 ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty" 1718270739 4474 23ca1d3a79a57b405388059456d0a8df ""
+  "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty" 1718270740 2444 71618ea5f2377e33b04fb97afdd0eac2 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty" 1576538732 3935 57aa3c3e203a5c2effb4d2bd2efbc323 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1719393830 20144 67a5f8e0f9e445e8ec6834e595cebdc9 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1719393830 8448 358bf3de18513f057a13bdc6e6770c41 ""
@@ -126,16 +131,16 @@
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Configs/boxes.tex" 1724357202 4347 492ab70d9ca6563fb5e6cb14d3ce6060 ""
-  "Configs/configs.tex" 1724345055 3500 96db53eafd3de0612c8a0478b4ae8eb6 ""
-  "Sections/Functions/defs.tex" 1724358246 4608 15b43b5ea3c11a1c6efda3133fbd532c ""
+  "Configs/configs.tex" 1724360854 3565 f0b8b5fe235fe23b91583e4483e0b16e ""
+  "Sections/Functions/defs.tex" 1724365767 9419 ee01a02bcfb959c65c46a98781c7913e ""
   "Sections/Sets/defs.tex" 1724357235 9229 f116edc99af698bd54bd29e0cdb5a0ce ""
   "Sections/Sets/intro.tex" 1724184009 383 85f8f90a0b44f7cea2df529c808c5787 ""
   "Sections/Sets/operations.tex" 1724357187 3065 71175d5e4fc9be124fa53fc65b9d0176 ""
   "Sections/Sets/summary.tex" 1724335491 1598 5ba7d24c1826ae1c2f08ad1a5b5cc74f ""
   "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1724333593 604 5921971bb59e50b84cb6140cc526b3f4 ""
-  "main.aux" 1724358248 2800 134eb4d6f78f4927664510f8efdef3b9 "xelatex"
+  "main.aux" 1724365771 3611 e64a57520a4147b9ff83a52491808def "xelatex"
   "main.tex" 1724333593 604 5921971bb59e50b84cb6140cc526b3f4 ""
-  "main.toc" 1724358248 324 5ca2faea157dd6f3806eb5bc1473726b "xelatex"
+  "main.toc" 1724365771 324 5ca2faea157dd6f3806eb5bc1473726b "xelatex"
   (generated)
   "main.aux"
   "main.log"
