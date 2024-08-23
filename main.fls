@@ -191,6 +191,10 @@ INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
@@ -271,4 +275,14 @@ INPUT .\Sections\Functions\summary.tex
 INPUT .\Sections\Functions\summary.tex
 INPUT .\Sections\Functions\summary.tex
 INPUT Sections\Functions\summary.tex
+INPUT .\Sections\Logic\defs.tex
+INPUT .\Sections\Logic\defs.tex
+INPUT .\Sections\Logic\defs.tex
+INPUT .\Sections\Logic\defs.tex
+INPUT Sections\Logic\defs.tex
+INPUT .\Sections\Logic\tables.tex
+INPUT .\Sections\Logic\tables.tex
+INPUT .\Sections\Logic\tables.tex
+INPUT .\Sections\Logic\tables.tex
+INPUT Sections\Logic\tables.tex
 INPUT main.aux

@@ -4,3 +4,6 @@
 \contentsline {section}{\numberline {2}Functions}{11}{}%
 \contentsline {subsection}{\numberline {2.1}Introduction to Functions}{11}{}%
 \contentsline {section}{\numberline {3}Logic}{16}{}%
+\contentsline {subsection}{\numberline {3.1}Introduction to Logic}{16}{}%
+\contentsline {subsection}{\numberline {3.2}Statements vs. Predicates:}{18}{}%
+\contentsline {subsection}{\numberline {3.3}Truth Tables}{18}{}%

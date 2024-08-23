@@ -1,0 +1,61 @@
+\subsection{Truth Tables}
+Writing whole sentences in logic can be cumbersome even in their reduced logical forms.
+So we use \textbf{truth tables} to help keep track our evaluations.\\
+
+\noindent
+To demonstrate, let's use a table to show the values $P$ and $\neg P$\\
+Our goal is to \underline{find all possible values} of $P$ to then evaluate $\neg P$.\\
+Let's take that concept and evaluate $P$ and $Q$ for ``$P \land Q$'' and ``$P \lor Q$.''\\
+
+\begin{center}
+    \begin{tabular}{|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $\neg P$ \\
+        \hline
+        T   & F        \\
+        F   & T        \\
+        \hline
+    \end{tabular}
+\end{center}
+\noindent
+$T$ = ``True'' and $F$ = ``False'', we refer to these truth values as \underline{\textbf{booleans}}.\\
+
+
+\begin{Def}[Boolean]{def:boolean}
+    A Boolean is a value that can only be either true or false.
+\end{Def}
+
+\newpage
+
+\noindent
+Our goal here is to find all possible value combinations of $P$ and $Q$ to then evaluate $P \land Q$ and $P \lor Q$.\\
+
+
+\begin{center}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $P \land Q$ & $P \lor Q$ \\
+        \hline
+        T   & T   & T           & T          \\
+        T   & F   & F           & T          \\
+        F   & T   & F           & T          \\
+        F   & F   & F           & F          \\
+        \hline
+    \end{tabular}
+\end{center}
+
+We will read this table's $P$ then $Q$ boolean values respectively:
+\begin{enumerate}
+    \item $T$ then $T$, So $T\land T = T$, and $T\lor T = T$.
+    \item $T$ then $F$, So $T\land F = F$, and $T\lor F = T$.
+    \item $F$ then $T$, So $F\land T = F$, and $F\lor T = T$.
+    \item $F$ then $F$, So $F\land F = F$, and $F\lor F = F$.
+\end{enumerate}
+
+\begin{Tip}
+    When working with new concepts, ask yourself what was going through the creator's mind.
+    Try to understand the logic and intuition behind concepts rather than memorizing them.
+    So when you forget, you'll be able to derive the concept from scratch, or consider a new novel idea.\\
+\end{Tip}

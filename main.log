@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  22 AUG 2024 19:58
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  23 AUG 2024 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -456,22 +456,36 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks35
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen259
+\ar@mcellbox=\box71
+\extrarowheight=\dimen260
+\NC@list=\toks36
+\extratabsurround=\skip121
+\backup@length=\skip122
+\ar@cellbox=\box72
+) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks37
+\minrowclearance=\skip123
+\rownum=\count313
 ) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen259
-\captionmargin=\dimen260
-\caption@leftmargin=\dimen261
-\caption@rightmargin=\dimen262
-\caption@width=\dimen263
-\caption@indent=\dimen264
-\caption@parindent=\dimen265
-\caption@hangindent=\dimen266
+\caption@tempdima=\dimen261
+\captionmargin=\dimen262
+\caption@leftmargin=\dimen263
+\caption@rightmargin=\dimen264
+\caption@width=\dimen265
+\caption@indent=\dimen266
+\caption@parindent=\dimen267
+\caption@hangindent=\dimen268
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count313
-\c@continuedfloat=\count314
+\c@caption@flags=\count314
+\c@continuedfloat=\count315
 ) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )) (main.aux
@@ -731,9 +745,101 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--14
 
 )
 
-[15]
+[15] (Sections/Logic/defs.tex
+Overfull \hbox (5.11pt too wide) in paragraph at lines 11--13
+\TU/lmr/m/n/10 This \TU/lmr/bx/n/10 assertion \TU/lmr/m/n/10 is a \TU/lmr/bx/n/10 statement \TU/lmr/m/n/10 or \TU/lmr/bx/n/10 proposition \TU/lmr/m/n/10 that is either $[]$. 
+ []
 
-[16] (main.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
+
+ []
+
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 59.
+
+Package mdframed Info: You first box width is to small
+ mdframed fixed it
+(mdframed)              on input line 59.
+
+
+[16]
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last split box is empty
+(mdframed)                You have to change the settings on input line 59.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+) (Sections/Logic/tables.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
+)
+
+[19] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
@@ -744,12 +850,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16435 strings out of 409029
- 326550 string characters out of 5756741
+ 16635 strings out of 409029
+ 329782 string characters out of 5756741
  1933612 words of memory out of 5000000
- 38811 multiletter control sequences out of 15000+600000
- 564509 words of font info for 74 fonts, out of 8000000 for 9000
+ 38998 multiletter control sequences out of 15000+600000
+ 564517 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,9n,110p,585b,992s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,9n,110p,585b,999s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (16 pages, 227676 bytes).
+Output written on main.xdv (19 pages, 289404 bytes).

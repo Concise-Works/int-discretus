@@ -1,0 +1,135 @@
+\subsection{Introduction to Logic}
+\vspace{1em}
+Observe the claim below:
+\vspace{1em}
+\begin{center}
+    \Large
+    \textit{``You're a rotten cook and your breath is sickly."}
+\end{center}
+\vspace{1em}
+
+\noindent
+This \textbf{assertion} is a \textbf{statement} or \textbf{proposition} that is either \underline{\textbf{TRUE} or \textbf{FALSE}}.\\
+
+\vspace{-1em}
+\begin{Note}
+    \textbf{Note:} claim, assertion, statement, and proposition are all synonyms.
+\end{Note}
+
+\vspace{1em}
+\noindent
+\textbf{Most Importantly:}
+\begin{itemize}
+    \item Am I actually a rotten cook?
+    \item Is my breath really that sickly?
+\end{itemize}
+
+\noindent
+We can boil down these two propositions to the following:
+\begin{itemize}
+    \item $R$: You're a rotten cook
+    \item $S$: Your breath is sickly
+\end{itemize}
+
+\vspace{1em}
+\noindent
+The original claim can be rewritten as:
+\begin{itemize}
+    \item ``$R$ and $S$'' formally written, ``$R \land S$'', ``$\land$'' shorthand for ``AND.''\\
+          \underline{\textbf{Both} proposition must be true} for the claim to be true.
+\end{itemize}
+
+\vspace{1em}
+\noindent
+Altering the claim to \textit{``You're a rotten cook or your breath is sickly''} yields:
+\begin{itemize}
+    \item ``$R$ or $S$'' formally written, ``$R \lor S$'', ``$\lor$'' shorthand for ``OR.''\\
+          \underline{\textbf{At least one} of the proposition must me true} for the claim to be true.\\\\
+          ``\textit{Maybe you're a rotten cook, maybe your breath is sickly, maybe both}.''
+\end{itemize}
+
+\begin{Tip}
+    To remember the difference between ``$\land$'' and ``$\lor$'', think: $\land$ looks like an ``A''
+    without the line for ``AND''.\\
+
+    \noindent
+    Also remember ``And'' is CONJUNCTION, ``OR'' is DISJUNCTION. To
+    help, think conjunction means ``conjoin'' to join together,\\ ``I'm putting together
+    one and one, I'm \textit{conjoining} them.''\\
+\end{Tip}
+
+\noindent
+Observe the claim below:
+\vspace{1em}
+\begin{center}
+    \Large
+    \textit{``I'm not a rotten cook, but I admit my breath is sickly."}
+\end{center}
+\vspace{1em}
+
+\noindent
+The above states, ``Not $R$'' formally written, ``$\neg R$'', ``$\neg$'' shorthand for ``NOT''.
+\underline{``but'' in this context is a conjunction.} The claim writes as: ``$\neg R \land S$''.\\
+
+\begin{Tip}
+    Try to uncover what a statement is truly saying, not literally.
+    In language we often obfuscate sentences to hide intent or to be more polite.\\
+\end{Tip}
+
+\noindent
+Observe the claim below:
+\vspace{1em}
+\begin{center}
+    \Large
+    \textit{``Either I'm a rotten cook or my breath is sickly,\\ not both."}
+\end{center}
+\vspace{1em}
+
+\noindent
+This is an example of the \textbf{exclusive OR} (XOR), we'll use the symbol ``$\oplus$''.\\
+Written as ``$R \oplus S$'', \underline{\textbf{only one} of the proposition can be true, not both.}\\
+
+\noindent
+This is more obvious in statements such as:
+\begin{itemize}
+    \item ``They either went to the party or stayed home.''
+    \item ``You are either with me or against me.''
+    \item ``They either bought lunch or saved their money.''
+\end{itemize}
+
+\noindent
+We call ``$\land, \lor, \neg, \oplus$'', \textbf{logical operators}.
+
+\begin{Def}[Logical Operators]{def:logical}
+    A symbol that represents a logical operation.
+    \begin{itemize}
+        \item $\land$: AND, both must be true.
+        \item $\lor$: OR, at least one must be true.
+        \item $\neg$: NOT, negation, opposite.
+        \item $\oplus$: XOR, exclusive OR, either or, but not both.
+    \end{itemize}
+\end{Def}
+
+\newpage
+
+\noindent
+\subsection{Statements vs. Predicates:}
+Below reads, \underline{\textbf{``4 is less than 2.''} This is false}, but still \textbf{is a statement}:
+\begin{center}
+    \large
+    $4<2$
+\end{center}
+A statement evaluates to either true or false, \textbf{predicates don't}. Such as:
+\begin{center}
+    \large
+    $x<2$
+\end{center}
+\textbf{This is a predicate}, it's neither true or false until we assign a value to $x$.\\
+
+\begin{Def}[Proposition]{def:proposition}
+    A statement that is either true or false, independent of any variables.
+\end{Def}
+\begin{Def}[Predicate]{def:predicate}
+    A statement where its truth values depend on one or more variables.
+\end{Def}
+
