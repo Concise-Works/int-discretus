@@ -3,3 +3,4 @@
 \contentsline {subsection}{\numberline {1.2}Set Operations}{8}{}%
 \contentsline {section}{\numberline {2}Functions}{11}{}%
 \contentsline {subsection}{\numberline {2.1}Introduction to Functions}{11}{}%
+\contentsline {section}{\numberline {3}Logic}{16}{}%

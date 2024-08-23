@@ -195,6 +195,8 @@ INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex\latex\setspace\setspace.sty
 INPUT .\main.aux
 INPUT .\main.aux
 INPUT main.aux
@@ -264,4 +266,9 @@ INPUT .\Sections\Functions\defs.tex
 INPUT .\Sections\Functions\defs.tex
 INPUT .\Sections\Functions\defs.tex
 INPUT Sections\Functions\defs.tex
+INPUT .\Sections\Functions\summary.tex
+INPUT .\Sections\Functions\summary.tex
+INPUT .\Sections\Functions\summary.tex
+INPUT .\Sections\Functions\summary.tex
+INPUT Sections\Functions\summary.tex
 INPUT main.aux
