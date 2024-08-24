@@ -285,4 +285,9 @@ INPUT .\Sections\Logic\tables.tex
 INPUT .\Sections\Logic\tables.tex
 INPUT .\Sections\Logic\tables.tex
 INPUT Sections\Logic\tables.tex
+INPUT .\Sections\Logic\functional_comp.tex
+INPUT .\Sections\Logic\functional_comp.tex
+INPUT .\Sections\Logic\functional_comp.tex
+INPUT .\Sections\Logic\functional_comp.tex
+INPUT Sections\Logic\functional_comp.tex
 INPUT main.aux

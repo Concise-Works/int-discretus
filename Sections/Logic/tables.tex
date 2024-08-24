@@ -3,9 +3,8 @@ Writing whole sentences in logic can be cumbersome even in their reduced logical
 So we use \textbf{truth tables} to help keep track our evaluations.\\
 
 \noindent
-To demonstrate, let's use a table to show the values $P$ and $\neg P$\\
-Our goal is to \underline{find all possible values} of $P$ to then evaluate $\neg P$.\\
-Let's take that concept and evaluate $P$ and $Q$ for ``$P \land Q$'' and ``$P \lor Q$.''\\
+To demonstrate, let's use a table to show the values $P$ and $\neg P$ Our goal is to
+\underline{find all possible values} of $P$ to then evaluate $\neg P$.
 
 \begin{center}
     \begin{tabular}{|c|c|}
@@ -46,6 +45,7 @@ Our goal here is to find all possible value combinations of $P$ and $Q$ to then 
     \end{tabular}
 \end{center}
 
+\noindent
 We will read this table's $P$ then $Q$ boolean values respectively:
 \begin{enumerate}
     \item $T$ then $T$, So $T\land T = T$, and $T\lor T = T$.
@@ -55,7 +55,198 @@ We will read this table's $P$ then $Q$ boolean values respectively:
 \end{enumerate}
 
 \begin{Tip}
-    When working with new concepts, ask yourself what was going through the creator's mind.
-    Try to understand the logic and intuition behind concepts rather than memorizing them.
-    So when you forget, you'll be able to derive the concept from scratch, or consider a new novel idea.\\
+    When working with new concepts, ask yourself what was going
+    through the creator's mind. Why this way and not some other way? Try\\
+    to understand the intuition behind an idea rather than pure memorization.\\
 \end{Tip}
+
+Now lets evaluate $\neg(P) \lor \neg(Q)$, the full table will be on the next page:\\
+
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $\neg P$ & $\neg Q$ & $\neg P \lor \neg Q$ \\
+        \hline
+        T   & T   &          &          &                      \\
+        T   & F   &          &          &                      \\
+        F   & T   &          &          &                      \\
+        F   & F   &          &          &                      \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\noindent
+Try to think and fill this out on your own, then compare your answers with the next page.\\
+
+\newpage
+
+\noindent
+This is the complete table for $\neg(P) \lor \neg(Q)$:
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $\neg P$ & $\neg Q$ & $\neg P \lor \neg Q$ \\
+        \hline
+        T   & T   & F        & F        & F                    \\
+        T   & F   & F        & T        & T                    \\
+        F   & T   & T        & F        & T                    \\
+        F   & F   & T        & T        & T                    \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\vspace{1em}
+\noindent
+Now let's try to evaluate $P \land \neg Q \lor W$. The filled table will be on the \underline{next page}.
+
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $W$ & $\neg Q$ & $P \land \neg Q$ & $P \land \neg Q \lor W$ \\
+        \hline
+        T   & T   & T   &          &                  &                         \\
+        T   & T   & F   &          &                  &                         \\
+        T   & F   & T   &          &                  &                         \\
+        T   & F   & F   &          &                  &                         \\
+        F   & T   & T   &          &                  &                         \\
+        F   & T   & F   &          &                  &                         \\
+        F   & F   & T   &          &                  &                         \\
+        F   & F   & F   &          &                  &                         \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\noindent
+\textbf{Notice} a pattern is starting to begin with our variables, $P$, $Q$, and $W$. To get
+all possible combinations, we increase the period of repeating trues and false.
+\begin{itemize}
+    \item Starting with $W$ we start with $T$ alternate each row $F$.
+    \item For $Q$ we alternate every 2 rows.
+    \item For $P$ we alternate every 4 rows.
+    \item With 4 variables, we alternate every 16 rows, and 5 every 32, and so on.
+\end{itemize}
+The pattern is \underline{$2^n$ where $n$ is the number of variables.}\\
+
+\begin{Def}[Growth of Truth Table]{def:table_growth}
+    The number of rows in a table grow $2^n$ where $n$ is the number of variables.
+\end{Def}
+
+\newpage
+
+\noindent
+This is the complete table for $P \land \neg Q \lor W$:
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $W$ & $\neg Q$ & $P \land \neg Q$ & $P \land \neg Q \lor W$ \\
+        \hline
+        T   & T   & T   & F        & F                & T                       \\
+        T   & T   & F   & F        & F                & F                       \\
+        T   & F   & T   & T        & T                & T                       \\
+        T   & F   & F   & T        & T                & T                       \\
+        F   & T   & T   & F        & F                & T                       \\
+        F   & T   & F   & F        & F                & F                       \\
+        F   & F   & T   & T        & F                & T                       \\
+        F   & F   & F   & T        & F                & F                       \\
+        \hline
+    \end{tabular}
+\end{center}
+\noindent
+\textbf{Truth tables are functions}, given a set of inputs, it will produce an output. Our
+above table could be written as the function $f(P, Q, W) = P \land \neg Q \lor W$.\\
+
+\noindent
+We can leverage tables to derive new functions. Observe the table below:\\
+
+\begin{center}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $f(x)$ \\
+        \hline
+        T   & T   & F      \\
+        \rowcolor{purple!10}
+        T   & F   & T      \\
+        F   & T   & F      \\
+        \rowcolor{purple!10}
+        F   & F   & T      \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\noindent
+Note the highlighted rows, our function is true if:
+\begin{center}
+    \large
+    ``$P$ is true and $Q$ is false'' or ``$P$ is false and $Q$ is false.''\\
+\end{center}
+
+\noindent
+Let's convert our statements with into propositional logic with our boolean operators:
+\begin{itemize}
+    \item ``$P$ is true and $Q$ is false'' = $P \land \neg Q$.
+    \item ``$P$ is false and $Q$ is false.'' = $\neg P \land \neg Q$.
+    \item Adding back our ``or'' yields: $(P \land \neg Q) \lor (\neg P \land \neg Q)$.
+\end{itemize}
+
+\begin {Note}
+\textbf{Note:} $P$ and $Q$ are propositions, and propositions are claims that we assert to be true.
+To say ``$P$ is false,'' is to say ``not $P$ is true,'' i.e, ``$\neg P$''.
+\end{Note}
+
+\newpage
+
+\noindent
+Known as \textbf{disjunctive normal form (DNF)}, where we take statements held by
+``AND'' and join them by ``OR.'' For reference: $(P \land \neg Q) \lor (\neg P \land \neg Q)$:
+
+\begin{Def}[Disjunctive Normal Form (DNF)]{def:dnf}
+    Statements held by ``AND'' joined by ``OR,'' i.e., conjunctions joined by disjunctions.
+\end{Def}
+
+\noindent
+We can also derive a function by negating false rows, which also means true:\\
+\begin{center}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $f(x)$ \\
+        \hline
+        \rowcolor{purple!10}
+        T   & T   & F      \\
+        T   & F   & T      \\
+        \rowcolor{purple!10}
+        F   & T   & F      \\
+        F   & F   & T      \\
+        \hline
+    \end{tabular}
+\end{center}
+\begin{center}
+    \large
+    ``not row one'' and ``not row three.''\\
+    ``$\neg(P \land Q)$'' and ``$\neg(\neg P \land Q)$''.
+\end{center}
+
+\noindent
+To simplify, we will use \underline{\textbf{De Morgan's Laws}.}\\
+
+\begin{Def}[De Morgan's Laws]{def:demorgan}
+    For booleans $P$ and $Q$:\\
+    \textbf{First Law:} $\neg(P \land Q) = \neg P \lor \neg Q$.\\
+    \textbf{Second Law:} $\neg(P \lor Q) = \neg P \land \neg Q$.\\
+
+    \noindent
+    i.e., negation distributes, $\lor$ to $\land$ and $\land$ to $\lor$.
+\end{Def}
+And we'll need the \underline{\textbf{law of double negation}}.\\
+
+\begin{Def}[Double Negation]{def:double_negation}
+    For a boolean $P$, $\neg(\neg P) = P$.
+\end{Def}
+
+
+
