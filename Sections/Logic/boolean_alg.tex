@@ -1,10 +1,182 @@
 
-\subsection{Boolean Algebra}:
+\subsection{Boolean Algebra}
+
+In digital systems we manipulate binary values to evaluate logic. These systems use
+states of \underline{``on'' and ``off'' to represent 1 (true) and 0 (false).}\\
 
 \noindent
-Let's practice spotting the difference between DNF and CNF.\\
+This is identical to the propositional logic we've been discussing. Observe:\\
+\begin{center}
+    \begin{tabular}{c c c}
+        Boolean Algebra &     & Propositional Logic \\
+        \hline
+        $\bar{x}$       & NOT & $\neg x$            \\
+        $x \cdot y$     & AND & $x \land y$         \\
+        $x + y$         & OR  & $x \lor y$          \\
+        $x \oplus y$    & XOR & $x \oplus y$        \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{Note}
+    \textbf{Note:} XOR in programming is often represented by the caret symbol `$^\wedge $'.
+\end{Note}
 
 \noindent
-\textbf{Questions:}
+This is the basis for logic gates and circuits, of which we will not discuss here.\\
+
+\newpage
+
+\noindent
+Lets use the following truth table to demonstrate boolean algebra conversion:\\
+\begin{center}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $f(x)$ \\
+        \hline
+        T   & T   & F      \\
+        T   & F   & T      \\
+        F   & T   & F      \\
+        F   & F   & T      \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{tabular}{cc|l}
+    \textbf{DNF}                                  & \textbf{CNF}                                 &                     \\
+    \hline
+    $(P \land \neg Q) \lor (\neg P \land \neg Q)$ & $(\neg P \lor \neg Q) \land (P \lor \neg Q)$ & Propositional Logic \\
+    $(P \cdot \bar{Q}) + (\bar{P} \cdot \bar{Q})$ & $(\bar{P} + \bar{Q}) \cdot (P + \bar{Q})$    & Boolean Algebra     \\
+    \hline
+\end{tabular}
+
+\vspace*{2em}
+
+\noindent
+We say \underline{$(P\bar{Q}) + (\bar{P} \bar{Q})$ is \textbf{equivalent} to $(\bar{P} + \bar{Q}) (P + \bar{Q})$.}
+This doesn't mean they are syntactically the same or re-arrangeable to match. Rather that they evaluate to the same truth values.\\
+
+\noindent
+I.e, we could swap out $f(x)$ for either of the two expressions and \underline{the truth table remains the same.}\\
+
+\begin{Note}
+    \textbf{Note:} the dot refers to multiplication so ``$P\cdot Q$'' is ``$PQ$'', they are one and the same.
+\end{Note}
+
+\begin{Def}[Logical Equivalence]{def:log_equiv}
+    Two expressions are equivalent if they evaluate to the same truth values.\\
+    Denoted: $P \equiv Q$.
+\end{Def}
+
+\noindent
+Obverse the claim:
+\begin{center}
+    \Large
+    \textit{``If you don't study, then you won't pass.''}
+\end{center}
+
+This is an example of a \textbf{conditional statement}. Let's break the statement down:
+\begin{itemize}
+    \item \textbf{S} to study.
+    \item \textbf{P} to pass.
+\end{itemize}
+
+\noindent
+The statement says, ``$\neg S$ \textbf{implies} $\neg P$'', i.e.,
+``$\neg S$ \textbf{then} $\neg P$'', formally written as ``$\neg S \rightarrow \neg P$.''\\
+
+\newpage
+
+\noindent
+This type of statement is called an \textbf{implication}.
+\begin{Def}[Implication]{def:imp}
+    A conditionally statement of the form, if $P$ then $Q$.\\
+    Denoted: $P \rightarrow Q$.
+\end{Def}
+
+\noindent
+Observe the following truth table for the implication:
+
+\begin{center}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $P \rightarrow Q$ \\
+        \hline
+        T   & T   & T                 \\
+        T   & F   & F                 \\
+        F   & T   & T                 \\
+        F   & F   & T                 \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\noindent
+Think of the implication as holding a promise:
+\begin{itemize}
+    \item If the promise to do something, and it gets done, I held my promise (true).
+    \item If I promise to do something, and it doesn't get done, I broke my promise (false).
+    \item If I never promised to do anything, then I can't break my promise (true).
+\end{itemize}
+The last statement is true because \underline{there was no promise to break,} hence, it's \textbf{Vacuously True}.\\
+Likewise, you cannot deny my claim if I never made one.\\
+
+\begin{Note}
+    \textbf{Note:} We say a \textbf{vacuously true} statement before when saying $\emptyset$ is a subset of all sets.
+    As it's impossible to deny that nothing is a part of something.
+\end{Note}
+
+\noindent
 
 
+\noindent
+Before we learned about Demorgan's Laws, and Double Negation. We'll need a couple more laws
+to help us further understand and manipulate these forms.\\
+
+\noindent
+Reference the below table of logical equivalences, (This will be your best friend):\\
+
+\noindent
+\begin{tabular}{|p{2cm}|l|l|}
+    \hline
+    Idempotent:                  & $p\lor p\equiv p$                                   & $p\land p\equiv p$                                   \\
+    \hline
+    Associative:                 & $(p\lor q) \lor r \equiv p \lor (q \lor r)$         &
+    $(p\land q) \land r \equiv p \land (q\land r)$                                                                                            \\
+    \hline
+    Commutative:                 & $p\lor q\equiv q \lor p$                            & $p\land q \equiv q \land p$                          \\
+    \hline
+    Distributive:                & $p\lor (q\land r) \equiv (p\lor q) \land (p\lor r)$ & $p\land (q\lor r) \equiv (p\land q) \lor (p\land r)$ \\
+    \hline
+    Identity:                    & $p\lor F \equiv p$                                  & $p\land T\equiv p$                                   \\
+    \hline
+    Domination:                  & $p\land F \equiv F$                                 & $p\lor T\equiv T$                                    \\
+    \hline
+    Double Negation:             & \multicolumn{2}{l|}{$\neg\neg p\equiv p$}                                                                  \\
+    \hline
+    \multirow{2}{*}{Complement:} & $p\land \neg p \equiv F$                            & $p\lor \neg p \equiv T$                              \\
+                                 & $\neg T \equiv F$                                   & $\neg F \equiv T$                                    \\
+    \hline
+    De Morgan's Laws:            & $\neg(p\lor q) \equiv \neg p \land \neg q$          &
+    $\neg(p\land q) \equiv \neg p \lor \neg q$
+    \\
+    \hline
+    Absorption:                  & $p\lor (p\land q) \equiv p $                        & $p\land (p\lor q) \equiv p$                          \\
+    \hline
+    Conditional identities:      & $p\rightarrow q \equiv \neg p \lor q$               &
+    $p\leftrightarrow q \equiv (p\rightarrow q)\land (q\rightarrow p)$                                                                        \\
+    \hline
+\end{tabular}
+
+\newpage
+
+
+
+\noindent
+\textbf{Questions:}\\
+Of the following, which is DNF and which is CNF, or both?
+
+\begin{enumerate}
+    \item $P\land Q\lor \neg W$
+\end{enumerate}

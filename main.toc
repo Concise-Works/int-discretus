@@ -1,9 +1,10 @@
 \contentsline {section}{\numberline {1}Sets}{3}{}%
 \contentsline {subsection}{\numberline {1.1}Introduction to Sets}{3}{}%
 \contentsline {subsection}{\numberline {1.2}Set Operations}{8}{}%
-\contentsline {section}{\numberline {2}Functions}{11}{}%
-\contentsline {subsection}{\numberline {2.1}Introduction to Functions}{11}{}%
-\contentsline {section}{\numberline {3}Logic}{16}{}%
-\contentsline {subsection}{\numberline {3.1}Introduction to Logic}{16}{}%
-\contentsline {subsection}{\numberline {3.2}Statements vs. Predicates:}{18}{}%
-\contentsline {subsection}{\numberline {3.3}Truth Tables}{18}{}%
+\contentsline {section}{\numberline {2}Functions}{12}{}%
+\contentsline {subsection}{\numberline {2.1}Introduction to Functions}{12}{}%
+\contentsline {section}{\numberline {3}Logic}{17}{}%
+\contentsline {subsection}{\numberline {3.1}Introduction to Logic}{17}{}%
+\contentsline {subsection}{\numberline {3.2}Statements vs. Predicates:}{19}{}%
+\contentsline {subsection}{\numberline {3.3}Truth Tables}{19}{}%
+\contentsline {subsection}{\numberline {3.4}Boolean Algebra}{24}{}%

@@ -91,4 +91,32 @@ $A$ has with $B$, i.e., take all in $A$ that is not in $B$, yields the set $\{1\
     \item $\{1,2\} - \emptyset = \{1, 2\}$. There is nothing to remove.
 \end{itemize}
 
+\noindent
+All possible subsets of a set is called the \textbf{power set}.
+\begin{Def}[Power Set]{def:power}
+    The set of all subsets of a set.\\
+    Denoted: $\mathcal{P}(A)$, $A$ is a set.
+\end{Def}
 
+\noindent
+\textbf{For Example:}
+\begin{itemize}
+    \item $\mathcal{P}(\emptyset) = \{\emptyset\}$.
+    \item $\mathcal{P}(\{1\}) = \{\emptyset, \{1\}\}$.
+    \item $\mathcal{P}(\{1, 2\}) = \{\emptyset, \{1\}, \{2\}, \{1, 2\}\}$.
+    \item $\mathcal{P}(\{1, 2, 3\}) = \{\emptyset, \{1\}, \{2\}, \{3\}, \{1, 2\}, \{1, 3\}, \{2, 3\}, \{1, 2, 3\}\}$.
+\end{itemize}
+
+\noindent
+The number of subsets grow exponentially with the number of elements in the set.
+The rate it grows is $2^{|n|}$, where $n$ is the number of elements in the set.
+
+\begin{Def}[Power Set Cardinality]{def:pow_set_card}
+    The cardinality of the power set grows $2^{|n|}$, where $n$ is the number of elements in the set.
+\end{Def}
+
+\newpage
+
+\noindent
+There are more operations that we could discuss, but we will stop here for now.
+I encourage you challenge these definitions create different cases, and test them.\\
