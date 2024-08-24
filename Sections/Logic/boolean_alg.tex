@@ -123,53 +123,134 @@ The last statement is true because \underline{there was no promise to break,} he
 Likewise, you cannot deny my claim if I never made one.\\
 
 \begin{Note}
-    \textbf{Note:} We say a \textbf{vacuously true} statement before when saying $\emptyset$ is a subset of all sets.
+    \textbf{Note:} We saw a \textbf{vacuously true} statement before when saying ``$\emptyset$ is a subset of all sets.''
     As it's impossible to deny that nothing is a part of something.
 \end{Note}
 
 \noindent
+It actually turns out $P \rightarrow Q$ is equivalent to $\neg P \lor Q$. Observe the table below:\\
 
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $\neg P$ & $\neg P \lor Q$ & $P \rightarrow Q$ \\
+        \hline
+        T   & T   & F        & T               & T                 \\
+        T   & F   & F        & F               & F                 \\
+        F   & T   & T        & T               & T                 \\
+        F   & F   & T        & T               & T                 \\
+        \hline
+    \end{tabular}
+\end{center}
+
+{\centering $P \rightarrow Q\equiv\neg P \lor Q$.\\}
+
+\newpage
 
 \noindent
-Before we learned about Demorgan's Laws, and Double Negation. We'll need a couple more laws
-to help us further understand and manipulate these forms.\\
+This is known as the \underline{\textbf{conditional identity}}. There are many more logical equivalences
+that we will need on our journey. Reference the table below, \textbf{(This will be your best friend)}:\\
 
+\vspace{1em}
 \noindent
-Reference the below table of logical equivalences, (This will be your best friend):\\
+{\Large \textbf{Logical Equivalences:}\\}
 
 \noindent
 \begin{tabular}{|p{2cm}|l|l|}
     \hline
-    Idempotent:                  & $p\lor p\equiv p$                                   & $p\land p\equiv p$                                   \\
+    \cellcolor{OliveGreen!10}Idempotent:                                             & $p\lor p\equiv p$                                   & $p\land p\equiv p$                                   \\
     \hline
-    Associative:                 & $(p\lor q) \lor r \equiv p \lor (q \lor r)$         &
-    $(p\land q) \land r \equiv p \land (q\land r)$                                                                                            \\
+    \cellcolor{OliveGreen!10}Associative:                                            & $(p\lor q) \lor r \equiv p \lor (q \lor r)$         &
+    $(p\land q) \land r \equiv p \land (q\land r)$                                                                                                                                                \\
     \hline
-    Commutative:                 & $p\lor q\equiv q \lor p$                            & $p\land q \equiv q \land p$                          \\
+    \cellcolor{OliveGreen!10}Commutative:                                            & $p\lor q\equiv q \lor p$                            & $p\land q \equiv q \land p$                          \\
     \hline
-    Distributive:                & $p\lor (q\land r) \equiv (p\lor q) \land (p\lor r)$ & $p\land (q\lor r) \equiv (p\land q) \lor (p\land r)$ \\
+    \cellcolor{OliveGreen!10}Distributive:                                           & $p\lor (q\land r) \equiv (p\lor q) \land (p\lor r)$ & $p\land (q\lor r) \equiv (p\land q) \lor (p\land r)$ \\
     \hline
-    Identity:                    & $p\lor F \equiv p$                                  & $p\land T\equiv p$                                   \\
+    \cellcolor{OliveGreen!10}Identity:                                               & $p\lor F \equiv p$                                  & $p\land T\equiv p$                                   \\
     \hline
-    Domination:                  & $p\land F \equiv F$                                 & $p\lor T\equiv T$                                    \\
+    \cellcolor{OliveGreen!10}Domination:                                             & $p\land F \equiv F$                                 & $p\lor T\equiv T$                                    \\
     \hline
-    Double Negation:             & \multicolumn{2}{l|}{$\neg\neg p\equiv p$}                                                                  \\
+    \cellcolor{OliveGreen!10}Double Negation:                                        & \multicolumn{2}{l|}{$\neg\neg p\equiv p$}                                                                  \\
     \hline
-    \multirow{2}{*}{Complement:} & $p\land \neg p \equiv F$                            & $p\lor \neg p \equiv T$                              \\
-                                 & $\neg T \equiv F$                                   & $\neg F \equiv T$                                    \\
+    \cellcolor{OliveGreen!10}\multirow{2}{*}                                         & $p\land \neg p \equiv F$                            & $p\lor \neg p \equiv T$                              \\
+    \cellcolor{OliveGreen!10}\raisebox{.8\normalbaselineskip}[0pt][0pt]{Complement:} & $\neg T \equiv F$                                   & $\neg F \equiv T$                                    \\
     \hline
-    De Morgan's Laws:            & $\neg(p\lor q) \equiv \neg p \land \neg q$          &
+    \cellcolor{OliveGreen!10}De Morgan's Laws:                                       & $\neg(p\lor q) \equiv \neg p \land \neg q$          &
     $\neg(p\land q) \equiv \neg p \lor \neg q$
     \\
     \hline
-    Absorption:                  & $p\lor (p\land q) \equiv p $                        & $p\land (p\lor q) \equiv p$                          \\
+    \cellcolor{OliveGreen!10}Absorption:                                             & $p\lor (p\land q) \equiv p $                        & $p\land (p\lor q) \equiv p$                          \\
     \hline
-    Conditional identities:      & $p\rightarrow q \equiv \neg p \lor q$               &
-    $p\leftrightarrow q \equiv (p\rightarrow q)\land (q\rightarrow p)$                                                                        \\
+    \cellcolor{OliveGreen!10}Conditional identities:                                 & $p\rightarrow q \equiv \neg p \lor q$               &
+    $p\leftrightarrow q \equiv (p\rightarrow q)\land (q\rightarrow p)$                                                                                                                            \\
     \hline
 \end{tabular}
 
+\begin{Tip}
+    Please, \underline{\textbf{do not}} try to memorize all of these, they will come naturally with practice. If
+    you are taking a class, it's definitely not worth the mental effort. Do practice problems that
+    require you to think about the rules.\\
+\end{Tip}
+
+\noindent
+Observe the statement:
+
+\begin{center}
+    \Large
+    \textit{``If and only if you study, then you will pass.''}
+\end{center}
+
+\noindent
+This is a \textbf{biconditional statement}. For ``$S$ = study'' and ``$P$ = pass'':\\
+Written ``$S \leftrightarrow P$'', which means ``$S\rightarrow P$ and $P\rightarrow S$''.\\
+
+\begin{Note}
+    \textbf{Note:} In writting, you may also see ``iff'', which is shorthand for ``if and only if''.\\
+\end{Note}
+
 \newpage
+
+\noindent
+To define the biconditional statement:
+\begin{Def}[Biconditional]{def:bicond}
+    A biconditional statement is true if and only if both propositions imply each other.\\
+    Denoted as: $P \leftrightarrow Q$, of form, $P\rightarrow Q\land Q\rightarrow P$.\\
+\end{Def}
+
+\noindent
+This is an important distinction to make as $P\rightarrow Q$ does not mean $Q\rightarrow P$.\\
+Using the conditional identity reveals this, $\neg P \lor Q \not\equiv \neg Q \lor P$:\\
+
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \rowcolor{OliveGreen!10}
+        $P$ & $Q$ & $\neg P \lor Q$ & $\neg Q \lor P $ & $P\leftrightarrow Q$ \\
+        \hline
+        T   & T   & T               & T                & T                    \\
+        T   & F   & F               & T                & F                    \\
+        F   & T   & T               & F                & F                    \\
+        F   & F   & T               & T                & T                    \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\noindent
+Let's walk through a logical Equivalence two column proof.\\
+
+\noindent
+\textbf{\textit{Proof:}} $P\
+
+\begin{tabular}{r m{.25mm} ll}
+    $\neg(P \land Q)$                               & $\land$ & $\neg(\neg P \land Q)$                              &                          \\
+    \cellcolor{OliveGreen!10}$(\neg P \lor \neg Q)$ & $\land$ & $\neg(\neg P \land Q)$                              & \text{ De Morgan's Laws} \\
+    $(\neg P \lor \neg Q)$                          & $\land$ & \cellcolor{OliveGreen!10}$(\neg\neg P \lor \neg Q)$ & \text{ De Morgan's Laws} \\
+    $(\neg P \lor \neg Q)$                          & $\land$ & \cellcolor{OliveGreen!10}$(P \lor \neg Q)$          & \text{ Double Negation}  \\
+\end{tabular}
+
+
 
 
 

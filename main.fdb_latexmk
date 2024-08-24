@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1724516098.00933 "main.xdv" "main.pdf" "main" 1724516098.42431 0
-  "main.xdv" 1724516097 395632 2c7d2898855b6049b0ac09c9d5a29f16 "xelatex"
+["xdvipdfmx"] 1724522110.47139 "main.xdv" "main.pdf" "main" 1724522110.8633 0
+  "main.xdv" 1724522110 414772 eb468436ad6629ed26d705675bd72c7a "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1724516095.94753 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724516098.41828 0
+["xelatex"] 1724522107.92525 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724522110.85736 0
   "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -142,7 +142,7 @@
   "Configs/configs.tex" 1724510925 4108 74ee641d0edfa419e5b23f59a8e1a59b ""
   "Sections/Functions/defs.tex" 1724371097 9144 e794a0d85312ab04802c81eee58151eb ""
   "Sections/Functions/summary.tex" 1724371127 1211 8c41dc36a53b07ec5be61764fcc2411f ""
-  "Sections/Logic/boolean_alg.tex" 1724516093 6987 1eaca775487c8496e79a6ac2f7eacd0e ""
+  "Sections/Logic/boolean_alg.tex" 1724522107 10958 b3b6592d83560abe20184e069272b5de ""
   "Sections/Logic/defs.tex" 1724447865 4359 99b6c8470d63403bf74e6b369fd514f5 ""
   "Sections/Logic/tables.tex" 1724508857 10283 07fd207618f7aa41eba3667f904532b3 ""
   "Sections/Sets/defs.tex" 1724357235 9229 f116edc99af698bd54bd29e0cdb5a0ce ""
@@ -150,9 +150,9 @@
   "Sections/Sets/operations.tex" 1724502511 4182 b6461b3b1583a7787beff3e16d5479e5 ""
   "Sections/Sets/summary.tex" 1724370879 1329 0ba678fcd2fd542a88cc3911763480fb ""
   "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1724510260 900 f2adf9e9e6812abfcb545dbcaf67ac59 ""
-  "main.aux" 1724516097 5082 a0f89cb75dc5584b20e6d5f189439b8e "xelatex"
+  "main.aux" 1724522110 5214 78587a7f1aeab33504db513dd03ce9bf "xelatex"
   "main.tex" 1724510260 900 f2adf9e9e6812abfcb545dbcaf67ac59 ""
-  "main.toc" 1724516097 663 18c01cfbd64d09df84330a657f765d9e "xelatex"
+  "main.toc" 1724522110 663 18c01cfbd64d09df84330a657f765d9e "xelatex"
   (generated)
   "main.aux"
   "main.log"

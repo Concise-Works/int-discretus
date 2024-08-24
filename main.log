@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  24 AUG 2024 12:14
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  24 AUG 2024 13:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1020,40 +1020,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--124
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--136
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
-
- []
-
-
-Overfull \hbox (5.0345pt too wide) in paragraph at lines 148--148
-[]|\TU/lmr/m/n/10 Commutative:| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[]|\TU/lmr/m/n/10 Double
- []
-
-
-Overfull \hbox (1.1445pt too wide) in paragraph at lines 158--158
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-[]|\TU/lmr/m/n/10 Conditional
  []
 
 
 
 [26]
+Underfull \hbox (badness 10000) in paragraph at lines 151--154
 
-[27])
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+ []
+
+
+Overfull \hbox (5.0345pt too wide) in paragraph at lines 167--167
+[]|\TU/lmr/m/n/10 Commutative:| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]|\TU/lmr/m/n/10 Double
+ []
+
+
+Overfull \hbox (1.1445pt too wide) in paragraph at lines 178--178
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\TU/lmr/m/n/10 Conditional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
+
+ []
+
+
+Overfull \hbox (5.95538pt too wide) in paragraph at lines 244--244
+[]|$\OMS/cmsy/m/n/10 ^$| 
+ []
+
+
+Overfull \hbox (5.95538pt too wide) in paragraph at lines 245--245
+[]|$\OMS/cmsy/m/n/10 ^$| 
+ []
+
+
+Overfull \hbox (5.95538pt too wide) in paragraph at lines 246--246
+[]|$\OMS/cmsy/m/n/10 ^$| 
+ []
+
+
+Overfull \hbox (5.95538pt too wide) in paragraph at lines 247--247
+[]|$\OMS/cmsy/m/n/10 ^$| 
+ []
+
+)
 
 [28] (main.aux)
  ***********
@@ -1066,12 +1121,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17281 strings out of 409029
- 340249 string characters out of 5756741
+ 17288 strings out of 409029
+ 340406 string characters out of 5756741
  1936612 words of memory out of 5000000
- 39627 multiletter control sequences out of 15000+600000
+ 39634 multiletter control sequences out of 15000+600000
  564517 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,10n,110p,585b,994s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (28 pages, 395632 bytes).
+Output written on main.xdv (28 pages, 414772 bytes).
