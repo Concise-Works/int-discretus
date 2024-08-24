@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1724471245.2183 "main.xdv" "main.pdf" "main" 1724471245.57106 0
-  "main.xdv" 1724471245 334376 3aace4f668981f562e783450ab70d0d4 "xelatex"
+["xdvipdfmx"] 1724474685.71493 "main.xdv" "main.pdf" "main" 1724474686.09292 0
+  "main.xdv" 1724474685 341148 43a0a3ba005d85a673a50c7db654a976 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1724471243.39225 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724471245.56489 0
+["xelatex"] 1724474683.63041 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1724474686.08715 0
   "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -138,16 +138,15 @@
   "Sections/Functions/defs.tex" 1724371097 9144 e794a0d85312ab04802c81eee58151eb ""
   "Sections/Functions/summary.tex" 1724371127 1211 8c41dc36a53b07ec5be61764fcc2411f ""
   "Sections/Logic/defs.tex" 1724447865 4359 99b6c8470d63403bf74e6b369fd514f5 ""
-  "Sections/Logic/functional_comp.tex" 1724454215 38 b021b086d88cd43a24b85f49f854e41a ""
-  "Sections/Logic/tables.tex" 1724471240 9010 461a93e38c9b0f276ff51df7fd527148 ""
+  "Sections/Logic/tables.tex" 1724474682 10287 64a1da908d284a31705bc914337aa248 ""
   "Sections/Sets/defs.tex" 1724357235 9229 f116edc99af698bd54bd29e0cdb5a0ce ""
   "Sections/Sets/intro.tex" 1724367089 408 e47947b59f874b89c2c5eadaeb0e0ce0 ""
   "Sections/Sets/operations.tex" 1724432703 3066 cccafc6d181cd2b432106f8c0ac1044d ""
   "Sections/Sets/summary.tex" 1724370879 1329 0ba678fcd2fd542a88cc3911763480fb ""
-  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1724454243 769 95bcc76bd9f4eaf0cb8fd1f24c8bb808 ""
-  "main.aux" 1724471245 4776 36a659d4266ec70eac5bf2407c679d8e "xelatex"
-  "main.tex" 1724454243 769 95bcc76bd9f4eaf0cb8fd1f24c8bb808 ""
-  "main.toc" 1724471245 671 e9a7499d6351c8805498fe241d305b84 "xelatex"
+  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1724471649 729 f2a24f043ca1f1927ac5838ce4e5ad4f ""
+  "main.aux" 1724474685 4703 08faaee20bfd8f4cd608045a745cdf69 "xelatex"
+  "main.tex" 1724471649 729 f2a24f043ca1f1927ac5838ce4e5ad4f ""
+  "main.toc" 1724474685 595 4c7c14d025a2d7469d155ae97c9874aa "xelatex"
   (generated)
   "main.aux"
   "main.log"

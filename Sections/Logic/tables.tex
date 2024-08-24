@@ -186,7 +186,7 @@ Note the highlighted rows, our function is true if:
 \end{center}
 
 \noindent
-Let's convert our statements with into propositional logic with our boolean operators:
+Let's convert our statements into propositional logic with our boolean operators:
 \begin{itemize}
     \item ``$P$ is true and $Q$ is false'' = $P \land \neg Q$.
     \item ``$P$ is false and $Q$ is false.'' = $\neg P \land \neg Q$.
@@ -248,5 +248,31 @@ And we'll need the \underline{\textbf{law of double negation}}.\\
     For a boolean $P$, $\neg(\neg P) = P$.
 \end{Def}
 
+\newpage
 
+\noindent
+To simplify ``$\neg(P \land Q)\land \neg(\neg P \land Q)$'' we well employ both techniques:\\
+
+\begin{tabular}{r m{.25mm} ll}
+    $\neg(P \land Q)$                               & $\land$ & $\neg(\neg P \land Q)$                              &                          \\
+    \cellcolor{OliveGreen!10}$(\neg P \lor \neg Q)$ & $\land$ & $\neg(\neg P \land Q)$                              & \text{ De Morgan's Laws} \\
+    $(\neg P \lor \neg Q)$                          & $\land$ & \cellcolor{OliveGreen!10}$(\neg\neg P \lor \neg Q)$ & \text{ De Morgan's Laws} \\
+    $(\neg P \lor \neg Q)$                          & $\land$ & \cellcolor{OliveGreen!10}$(P \lor \neg Q)$          & \text{ Double Negation}  \\
+\end{tabular}
+
+\vspace{1em}
+\noindent
+\textbf{Yielding}: \underline{$(\neg P \lor \neg Q) \land (P \lor \neg Q)$}.\\
+
+\noindent
+This is called \textbf{conjunctive normal form (CNF)}, where we take statements held by
+``OR'' and join them by ``AND.''
+
+\begin{Def}[Conjunctive Normal Form (CNF)]{def:cnf}
+    Statements held by ``OR'' joined by ``AND,'' i.e., disjunctions joined by conjunctions.
+\end{Def}
+
+\noindent
+\underline{\textbf{Any boolean function} can be written in DNF or CNF}. Using a table helps
+derive these forms.\\
 
