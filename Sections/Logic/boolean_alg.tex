@@ -1,5 +1,6 @@
 
-\subsection{Boolean Algebra}
+\subsection{Boolean Algebra\\ \& Logical Equivalences}
+\vspace{1em}
 
 In digital systems we manipulate binary values to evaluate logic. These systems use
 states of \underline{``on'' and ``off'' to represent 1 (true) and 0 (false).}\\
@@ -238,20 +239,34 @@ Using the conditional identity reveals this, $\neg P \lor Q \not\equiv \neg Q \l
 \end{center}
 
 \noindent
-Let's walk through a logical Equivalence two column proof.\\
+Now we can evaluate if two expressions are equivalent. Let's prove this next example:\\
 
 \noindent
-\textbf{\textit{Proof:}} $P\
+\textbf{\textit{Prove:}} $((p \land q) \lor (p \land s)) \lor (p \land r) \equiv p \land ((q \lor r) \lor s)$ \\
 
-\begin{tabular}{r m{.25mm} ll}
-    $\neg(P \land Q)$                               & $\land$ & $\neg(\neg P \land Q)$                              &                          \\
-    \cellcolor{OliveGreen!10}$(\neg P \lor \neg Q)$ & $\land$ & $\neg(\neg P \land Q)$                              & \text{ De Morgan's Laws} \\
-    $(\neg P \lor \neg Q)$                          & $\land$ & \cellcolor{OliveGreen!10}$(\neg\neg P \lor \neg Q)$ & \text{ De Morgan's Laws} \\
-    $(\neg P \lor \neg Q)$                          & $\land$ & \cellcolor{OliveGreen!10}$(P \lor \neg Q)$          & \text{ Double Negation}  \\
-\end{tabular}
+\noindent
+The right-hand expression is simpler, it'll be more intuitive to expand it and match.\\
+\noindent
+% \textbf{\textit{Proof:}} $P
+\begin{center}
+    \begin{tabular}{l l m{.1mm} l m{.1mm} l l}
+        1. &                                          &                                  & $p \land ((q \lor r) \lor s) $                     &                                  &                                           & \text{Given}            \\
+        2. &                                          &                                  & \cellcolor{OliveGreen!10} $ (p \land (q \lor r)) $ & \cellcolor{OliveGreen!10} $\lor$ & \cellcolor{OliveGreen!10} $ (p \land s) $ & \text{Distributive Law} \\
+        3. & \cellcolor{OliveGreen!10}$((p \land q) $ & \cellcolor{OliveGreen!10} $\lor$ & \cellcolor{OliveGreen!10} $(p \land r)) $          & $\lor$                           & $ (p \land s) $                           & \text{Distributive Law} \\
+        4. & $((p \land q) $                          & $\lor$                           & \cellcolor{OliveGreen!10}$ (p \land s)) $          & $\lor$                           & \cellcolor{OliveGreen!10} $ (p \land r) $ & \text{Associative Law}  \\
+    \end{tabular}
+\end{center}
+
+\begin{Note}
+    \textbf{Note:} Above is a random example contrived off of expanding a starting expression with laws.
+\end{Note}
+
+\begin{Tip}
+
+\end{Tip}
 
 
-
+\textbf{Reasoning:}
 
 
 \noindent

@@ -1,4 +1,4 @@
-\subsection{Truth Tables}
+\subsection{Truth Tables (CNF \& DNF)}
 Writing whole sentences in logic can be cumbersome even in their reduced logical forms.
 So we use \textbf{truth tables} to help keep track our evaluations.\\
 
@@ -46,7 +46,7 @@ Our goal here is to find all possible value combinations of $P$ and $Q$ to then 
 \end{center}
 
 \noindent
-We will read this table's $P$ then $Q$ boolean values respectively:
+We will read this table, $P$ then $Q$ boolean values respectively:
 \begin{enumerate}
     \item $T$ then $T$, So $T\land T = T$, and $T\lor T = T$.
     \item $T$ then $F$, So $T\land F = F$, and $T\lor F = T$.
@@ -55,12 +55,13 @@ We will read this table's $P$ then $Q$ boolean values respectively:
 \end{enumerate}
 
 \begin{Tip}
-    When working with new concepts, ask yourself what was going
-    through the creator's mind. Why this way and not some other way? Try\\
+    When working with new concepts, ask yourself, what was going
+    through the creator's mind. Why this way and not some other way? Try
     to understand the intuition behind an idea rather than pure memorization.\\
 \end{Tip}
 
-Now lets evaluate $\neg(P) \lor \neg(Q)$, the full table will be on the next page:\\
+\noindent
+Now lets evaluate $\neg(P) \lor \neg(Q)$, \underline{the full table will be on the next page:}\\
 
 \begin{center}
     \begin{tabular}{|c|c|c|c|c|c|}
@@ -77,7 +78,7 @@ Now lets evaluate $\neg(P) \lor \neg(Q)$, the full table will be on the next pag
 \end{center}
 
 \noindent
-Try to think and fill this out on your own, then compare your answers with the next page.\\
+Try to think and \underline{fill this out on your own}, then compare your answers with the next page.\\
 
 \newpage
 
@@ -120,13 +121,13 @@ Now let's try to evaluate $P \land \neg Q \lor W$. The filled table will be on t
 \end{center}
 
 \noindent
-\textbf{Notice} a pattern is starting to begin with our variables, $P$, $Q$, and $W$. To get
-all possible combinations, we increase the period of repeating trues and false.
+\underline{\textbf{Notice} a pattern is starting to begin with our variables,} $P$, $Q$, and $W$. To get
+all possible combinations, we increase the periods of repeating true and false.
 \begin{itemize}
-    \item Starting with $W$ we start with $T$ alternate each row $F$.
+    \item With $W$, $T$ and $F$ alternate each row.
     \item For $Q$ we alternate every 2 rows.
     \item For $P$ we alternate every 4 rows.
-    \item With 4 variables, we alternate every 16 rows, and 5 every 32, and so on.
+    \item 4 variables: every 16 rows, 5: every 32, and so on.
 \end{itemize}
 The pattern is \underline{$2^n$ where $n$ is the number of variables.}\\
 
@@ -251,10 +252,10 @@ And we'll need the \underline{\textbf{law of double negation}}.\\
 \newpage
 
 \noindent
-To simplify ``$\neg(P \land Q)\land \neg(\neg P \land Q)$'' we well employ both techniques:\\
+To simplify ``$\neg(P \land Q)\land \neg(\neg P \land Q)$'' we well employ both techniques in a \underline{\textbf{two column proof}:}\\
 
 \begin{tabular}{r m{.25mm} ll}
-    $\neg(P \land Q)$                               & $\land$ & $\neg(\neg P \land Q)$                              &                          \\
+    $\neg(P \land Q)$                               & $\land$ & $\neg(\neg P \land Q)$                              & \text{ Given}            \\
     \cellcolor{OliveGreen!10}$(\neg P \lor \neg Q)$ & $\land$ & $\neg(\neg P \land Q)$                              & \text{ De Morgan's Laws} \\
     $(\neg P \lor \neg Q)$                          & $\land$ & \cellcolor{OliveGreen!10}$(\neg\neg P \lor \neg Q)$ & \text{ De Morgan's Laws} \\
     $(\neg P \lor \neg Q)$                          & $\land$ & \cellcolor{OliveGreen!10}$(P \lor \neg Q)$          & \text{ Double Negation}  \\

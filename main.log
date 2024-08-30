@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  24 AUG 2024 16:57
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  30 AUG 2024 13:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -517,7 +517,14 @@ Package caption Info: changepage package is loaded.
 \caption@adjustwidth@linewidth=\dimen279
 ) (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)) (main.aux)
+)) (main.aux
+
+LaTeX Warning: Label `fig:relates' multiply defined.
+
+
+LaTeX Warning: Label `fig:cats_dogs' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -584,8 +591,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
  (C:\Users\tuber\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-No file main.toc.
+) (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -606,9 +612,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 Underfull \hbox (badness 10000) in paragraph at lines 44--48
 
  []
-
-
-LaTeX Warning: Reference `fig:subset' on page 4 undefined on input line 65.
 
 
 
@@ -677,9 +680,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
-
-LaTeX Warning: Reference `fig:empty_box' on page 9 undefined on input line 73.
-
 Package mdframed Info: Not enough space on this page on input line 74.
 
 
@@ -720,9 +720,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--54
  []
 
 
-LaTeX Warning: Reference `fig:relates' on page 12 undefined on input line 56.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
@@ -743,9 +740,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--69
 Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
-
-
-LaTeX Warning: Reference `fig:relates' on page 13 undefined on input line 132.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 131--135
@@ -894,66 +888,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--61
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
 
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 158--161
+Underfull \hbox (badness 10000) in paragraph at lines 159--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--241
+Underfull \hbox (badness 10000) in paragraph at lines 239--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
 
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 
- []
-
-
-Overfull \hbox (5.95538pt too wide) in paragraph at lines 257--257
-[]|$\OMS/cmsy/m/n/10 ^$| 
  []
 
 
@@ -972,154 +961,171 @@ Overfull \hbox (5.95538pt too wide) in paragraph at lines 260--260
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--266
+Overfull \hbox (5.95538pt too wide) in paragraph at lines 261--261
+[]|$\OMS/cmsy/m/n/10 ^$| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
 
  []
 
 ) (Sections/Logic/boolean_alg.tex
-Underfull \hbox (badness 10000) in paragraph at lines 275--1
+Underfull \hbox (badness 10000) in paragraph at lines 276--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
+Underfull \hbox (badness 10000) in paragraph at lines 86--89
 
  []
 
 
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
 
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 151--154
+Underfull \hbox (badness 10000) in paragraph at lines 152--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
 
-Overfull \hbox (5.0345pt too wide) in paragraph at lines 167--167
+Overfull \hbox (5.0345pt too wide) in paragraph at lines 168--168
 []|\TU/lmr/m/n/10 Commutative:| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []|\TU/lmr/m/n/10 Double
  []
 
 
-Overfull \hbox (1.1445pt too wide) in paragraph at lines 178--178
+Overfull \hbox (1.1445pt too wide) in paragraph at lines 179--179
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\TU/lmr/m/n/10 Conditional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--195
+Underfull \hbox (badness 10000) in paragraph at lines 192--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--208
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
 
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--225
+Underfull \hbox (badness 10000) in paragraph at lines 223--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
 
  []
 
-Sections/Logic/boolean_alg.tex:245: Missing $ inserted.
-<inserted text> 
-                $
-l.245 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
-Overfull \hbox (5.95538pt too wide) in paragraph at lines 247--247
-[]|$\OMS/cmsy/m/n/10 ^$| 
  []
 
 
-Overfull \hbox (5.95538pt too wide) in paragraph at lines 248--248
-[]|$\OMS/cmsy/m/n/10 ^$| 
+Underfull \hbox (badness 10000) in paragraph at lines 247--251
+
  []
 
 
-Overfull \hbox (5.95538pt too wide) in paragraph at lines 249--249
-[]|$\OMS/cmsy/m/n/10 ^$| 
+Overfull \hbox (6.38216pt too wide) in paragraph at lines 254--254
+[]|$\OMS/cmsy/m/n/10 _$| 
  []
 
 
-Overfull \hbox (5.95538pt too wide) in paragraph at lines 250--250
-[]|$\OMS/cmsy/m/n/10 ^$| 
+Overfull \hbox (6.38216pt too wide) in paragraph at lines 255--255
+[]|$\OMS/cmsy/m/n/10 _$| 
+ []
+
+
+Overfull \hbox (6.38216pt too wide) in paragraph at lines 255--255
+[]|$\OMS/cmsy/m/n/10 _$| 
+ []
+
+
+Overfull \hbox (6.38216pt too wide) in paragraph at lines 256--256
+[]|$\OMS/cmsy/m/n/10 _$| 
+ []
+
+
+Overfull \hbox (6.38216pt too wide) in paragraph at lines 256--256
+[]|$\OMS/cmsy/m/n/10 _$| 
+ []
+
+
+Overfull \hbox (36.93547pt too wide) in paragraph at lines 252--258
+ [] 
  []
 
 )
@@ -1131,19 +1137,16 @@ L3 programming layer <2024-07-20>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17288 strings out of 409029
- 340464 string characters out of 5756741
+ 17295 strings out of 409029
+ 340587 string characters out of 5756741
  1936612 words of memory out of 5000000
- 39634 multiletter control sequences out of 15000+600000
+ 39639 multiletter control sequences out of 15000+600000
  564525 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,10n,110p,585b,994s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (28 pages, 405996 bytes).
+Output written on main.xdv (28 pages, 421428 bytes).

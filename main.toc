@@ -6,5 +6,5 @@
 \contentsline {section}{\numberline {3}Logic}{17}{}%
 \contentsline {subsection}{\numberline {3.1}Introduction to Logic}{17}{}%
 \contentsline {subsection}{\numberline {3.2}Statements vs. Predicates:}{19}{}%
-\contentsline {subsection}{\numberline {3.3}Truth Tables}{19}{}%
-\contentsline {subsection}{\numberline {3.4}Boolean Algebra}{24}{}%
+\contentsline {subsection}{\numberline {3.3}Truth Tables (CNF \& DNF)}{19}{}%
+\contentsline {subsection}{\numberline {3.4}Boolean Algebra\\ \& Logical Equivalences}{24}{}%
