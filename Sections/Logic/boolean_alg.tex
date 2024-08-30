@@ -250,29 +250,68 @@ The right-hand expression is simpler, it'll be more intuitive to expand it and m
 % \textbf{\textit{Proof:}} $P
 \begin{center}
     \begin{tabular}{l l m{.1mm} l m{.1mm} l l}
-        1. &                                          &                                  & $p \land ((q \lor r) \lor s) $                     &                                  &                                           & \text{Given}            \\
+        1. &                                          &                                  & $p $                                               & $\land  $                        & $((q \lor r) \lor s)       $              & \text{Given}            \\
         2. &                                          &                                  & \cellcolor{OliveGreen!10} $ (p \land (q \lor r)) $ & \cellcolor{OliveGreen!10} $\lor$ & \cellcolor{OliveGreen!10} $ (p \land s) $ & \text{Distributive Law} \\
         3. & \cellcolor{OliveGreen!10}$((p \land q) $ & \cellcolor{OliveGreen!10} $\lor$ & \cellcolor{OliveGreen!10} $(p \land r)) $          & $\lor$                           & $ (p \land s) $                           & \text{Distributive Law} \\
-        4. & $((p \land q) $                          & $\lor$                           & \cellcolor{OliveGreen!10}$ (p \land s)) $          & $\lor$                           & \cellcolor{OliveGreen!10} $ (p \land r) $ & \text{Associative Law}  \\
+        4. & $((p \land q) $                          & $\lor$                           & \cellcolor{OliveGreen!10}$ (p \land s)) $          & $\lor$                           & \cellcolor{OliveGreen!10} $ (p \land r) $ & \text{Commutative Law}  \\
     \end{tabular}
 \end{center}
 
 \begin{Note}
     \textbf{Note:} Above is a random example contrived off of expanding a starting expression with laws.
 \end{Note}
-
+\vspace{-1em}
 \begin{Tip}
+    \textbf{Distributive law:} is distribution, i.e., $a(b+c) = ab + ac$.\\
 
+    \noindent
+    $a \cdot  (b+c) = (a\cdot b) + (a\cdot c)$, multiplaction outside is pulled inside.\\
+    $a+(b\cdot c) = (a+b) \cdot  (a+c)$, addition outside is pulled inside.\\
+
+    \noindent
+    Take note of the \underline{operators `$\cdot$' and `+'}, think about their behaviors.\\
 \end{Tip}
 
+\newpage
 
-\textbf{Reasoning:}
+\begin{Tip}
+    \textbf{Commutative Law:} The order of terms does not affect the result, i.e.,\\
+    $a + b = b + a$ and $a \cdot b = b \cdot a$.\\
 
+    \noindent
+    Remember, it doesn't matter whether you add $1 + 2 + 3$ vs. $3 + 2 + 1$, or, $1 \cdot 2 \cdot 3$ vs. $3 \cdot 2 \cdot 1$.\\
+\end{Tip}
+\begin{Tip}
+    \textbf{Associative Law:} The grouping of terms does not affect the result, i.e.,\\
+    $(a + b) + c = a + (b + c)$ and $(a \cdot b) \cdot c = a \cdot (b \cdot c)$.\\
+
+    \noindent
+    Nor does anything change when you place parentheses:\\
+    $(1 + 2) + 3 = 1 + (2 + 3)$, or, $(1 \cdot 2) \cdot 3 = 1 \cdot (2 \cdot 3)$.\\
+\end{Tip}
+
+\begin{Tip}
+    \textbf{Abstracting Terms:} In the above example ``$p \land ((q \lor r) \lor s) $'' \underline{is a lot to look at.}\\
+    abstracting terms makes it clearer, e.g., M = $(q \lor r)$, then $p \land (M \lor s)$.\\
+
+    \noindent
+    Now we can focus on less when we distribute, yielding: $(p \land M) \lor (p \land s)$.\\
+\end{Tip}
 
 \noindent
-\textbf{Questions:}\\
-Of the following, which is DNF and which is CNF, or both?
+Another Example:\\
 
-\begin{enumerate}
-    \item $P\land Q\lor \neg W$
-\end{enumerate}
+\noindent
+\textbf{\textit{Prove:}} $(p\lor p) \land (p\lor q) \equiv p$\\
+
+\begin{center}
+    \begin{tabular}{l l m{.1mm} l m{.1mm} l l}
+        1. &  &  & $(p\lor p)      $             & $\land$ & $(p\lor q)$                          & \text{Given}          \\
+        2. &  &  & \cellcolor{OliveGreen!10} $p$ & $\land$ & $(p\lor q)$                          & \text{Idempotent Law} \\
+        3. &  &  &                               &         & \cellcolor{OliveGreen!10}$(p\lor q)$ & \text{Absorption law} \\
+    \end{tabular}
+\end{center}
+
+\noindent
+\underline{\textbf{Remember} the above is propisitional logic.} Boolean algebrea substitues $\land$ and $\lor$ for $\cdot$ and $+$.\\
+The above examples were done in propositional logic for clarity, but the same rules apply.\\

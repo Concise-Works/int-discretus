@@ -301,4 +301,9 @@ INPUT .\Sections\Logic\boolean_alg.tex
 INPUT .\Sections\Logic\boolean_alg.tex
 INPUT .\Sections\Logic\boolean_alg.tex
 INPUT Sections\Logic\boolean_alg.tex
+INPUT .\Sections\Logic\set_equivs.tex
+INPUT .\Sections\Logic\set_equivs.tex
+INPUT .\Sections\Logic\set_equivs.tex
+INPUT .\Sections\Logic\set_equivs.tex
+INPUT Sections\Logic\set_equivs.tex
 INPUT main.aux
