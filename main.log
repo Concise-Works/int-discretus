@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  30 AUG 2024 16:59
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  30 AUG 2024 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1245,39 +1245,15 @@ Overfull \hbox (5.0345pt too wide) in paragraph at lines 34--34
  []
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 38.
-
-Missing character: There is no Ø in font cmmi10!
-
-LaTeX Warning: Command \O invalid in math mode on input line 40.
-
-
-LaTeX Warning: Command \O invalid in math mode on input line 40.
-
-Missing character: There is no Ø in font cmmi10!
-Missing character: There is no Ø in font cmmi10!
-
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []|\TU/lmr/m/n/10 Double
  []
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 44.
-
-Missing character: There is no Ø in font cmmi10!
-
 Overfull \hbox (1.1445pt too wide) in paragraph at lines 45--45
 []|[]| 
  []
 
-
-LaTeX Warning: Command \O invalid in math mode on input line 45.
-
-Missing character: There is no Ø in font cmmi10!
-
-LaTeX Warning: Command \O invalid in math mode on input line 45.
-
-Missing character: There is no Ø in font cmmi10!
 
 Overfull \hbox (29.74161pt too wide) in paragraph at lines 26--60
 [] 
@@ -1366,4 +1342,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  107i,10n,110p,585b,994s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (31 pages, 464784 bytes).
+Output written on main.xdv (31 pages, 464828 bytes).
