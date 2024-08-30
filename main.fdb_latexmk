@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1725046732.4341 "main.xdv" "main.pdf" "main" 1725046732.84406 0
-  "main.xdv" 1725046732 454284 6fb31f5c282ac314419e4fc53a97f1c7 "xelatex"
+["xdvipdfmx"] 1725051601.88908 "main.xdv" "main.pdf" "main" 1725051602.32895 0
+  "main.xdv" 1725051601 464784 9d47457f661cb21c06443905c3c730c8 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1725046729.83525 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1725046732.83625 0
+["xelatex"] 1725051599.51673 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1725051602.32238 0
   "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -144,16 +144,16 @@
   "Sections/Functions/summary.tex" 1724371127 1211 8c41dc36a53b07ec5be61764fcc2411f ""
   "Sections/Logic/boolean_alg.tex" 1725043021 14011 19cb625de12fd8c9259c372fb2a737dc ""
   "Sections/Logic/defs.tex" 1724447865 4359 99b6c8470d63403bf74e6b369fd514f5 ""
-  "Sections/Logic/set_equivs.tex" 1725045777 4362 fbc05653f2a5f2e89036d9c538468b50 ""
+  "Sections/Logic/set_equivs.tex" 1725051598 6782 097d31c1744680ee36ee388a841b4b0e ""
   "Sections/Logic/tables.tex" 1725037656 10345 2aed5462438dfb7ea7439ebf31f0f55e ""
   "Sections/Sets/defs.tex" 1725046558 9829 de246cf9548ab2ee872512bddc7ec36d ""
   "Sections/Sets/intro.tex" 1724367089 408 e47947b59f874b89c2c5eadaeb0e0ce0 ""
   "Sections/Sets/operations.tex" 1725046729 4161 96224bde1c98b3019a95a70f097f025d ""
   "Sections/Sets/summary.tex" 1724370879 1329 0ba678fcd2fd542a88cc3911763480fb ""
   "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1725043159 983 fda0697f477fe8357f68b9776e970f61 ""
-  "main.aux" 1725046732 5626 2cc529ea17f5b48f4e580feb3991024c "xelatex"
+  "main.aux" 1725051601 5670 2c3a0ad341696e3e54659af2535edeba "xelatex"
   "main.tex" 1725043159 983 fda0697f477fe8357f68b9776e970f61 ""
-  "main.toc" 1725046732 771 b1c3c008ba55f2bd9020585f05c7dc24 "xelatex"
+  "main.toc" 1725051601 771 b1c3c008ba55f2bd9020585f05c7dc24 "xelatex"
   (generated)
   "main.aux"
   "main.log"

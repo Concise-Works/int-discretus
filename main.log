@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  30 AUG 2024 15:38
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  30 AUG 2024 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1284,18 +1284,70 @@ Overfull \hbox (29.74161pt too wide) in paragraph at lines 26--60
  []
 
 
-Overfull \hbox (6.38216pt too wide) in paragraph at lines 70--70
-[]|$\OMS/cmsy/m/n/10 [$| 
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+
  []
 
 
-Overfull \hbox (6.38216pt too wide) in paragraph at lines 71--71
-[]|$\OMS/cmsy/m/n/10 [$| 
+Overfull \hbox (7.49327pt too wide) in paragraph at lines 71--71
+[]|$\OMS/cmsy/m/n/10 ^^R$| 
+ []
+
+
+Overfull \hbox (9.71548pt too wide) in paragraph at lines 72--72
+[]|$\OMS/cmsy/m/n/10 !$| 
+ []
+
+
+Overfull \hbox (9.71548pt too wide) in paragraph at lines 73--73
+[]|$\OMS/cmsy/m/n/10 !$| 
+ []
+
+
+Overfull \hbox (6.38216pt too wide) in paragraph at lines 74--74
+[]|$\OMS/cmsy/m/n/10 _$| 
+ []
+
+
+Overfull \hbox (6.38216pt too wide) in paragraph at lines 75--75
+[]|$\OMS/cmsy/m/n/10 _$| 
+ []
+
+
+Overfull \hbox (6.38216pt too wide) in paragraph at lines 76--76
+[]|$\OMS/cmsy/m/n/10 ^$| 
+ []
+
+
+Overfull \hbox (6.38216pt too wide) in paragraph at lines 77--77
+[]|$\OMS/cmsy/m/n/10 ^$| 
+ []
+
+
+Overfull \hbox (6.38216pt too wide) in paragraph at lines 78--78
+[]|$\OMS/cmsy/m/n/10 ^$| 
+ []
+
+
+Overfull \hbox (113.79196pt too wide) in paragraph at lines 70--80
+ [] 
+ []
+
+
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
  []
 
 )
 
-[30] (main.aux)
+[31] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
@@ -1306,12 +1358,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17312 strings out of 409029
- 341042 string characters out of 5756741
- 1937612 words of memory out of 5000000
- 39653 multiletter control sequences out of 15000+600000
+ 17314 strings out of 409029
+ 341085 string characters out of 5756741
+ 1938612 words of memory out of 5000000
+ 39655 multiletter control sequences out of 15000+600000
  564525 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,10n,110p,585b,994s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (30 pages, 454284 bytes).
+Output written on main.xdv (31 pages, 464784 bytes).
