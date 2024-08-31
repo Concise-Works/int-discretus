@@ -141,5 +141,82 @@ If the set is clear, we can omit syntax and write:\\
 
 \begin{center}
     \Large
-    $\forall x \exists y \enspace (A(x)\land R(x)) \rightarrow M(x,y)$
+    $\forall x \exists y \mid (A(x)\land R(x)) \rightarrow M(x,y)$
+\end{center}
+
+\newpage
+
+\noindent
+Observe the claim:
+
+\begin{center}
+    \Large
+    \textit{``There was exactly one person who was late to the meeting.''}
+\end{center}
+
+
+Assuming the set of all people:
+\begin{itemize}
+    \item $L(x)$, $x$ was late to the meeting.
+    \item Someone was late = $\exists x \mid L(x)$.
+\end{itemize}
+
+To be the only person, means \underline{on one else was late.} so:
+\begin{itemize}
+    \item No one else was late = $\forall y\mid \neg L(y)$.
+    \item however $x$ could equal $y$ so we add, $\forall y\mid (( x\neq y) \rightarrow \neg L(y)$).
+\end{itemize}
+
+\begin{Note}
+    \textbf{Note:} Remember to use $\rightarrow$ to imply a relationship. To use $\forall$ is to describe a universal claim.
+\end{Note}
+
+\noindent
+Taking our Existential claim and adding the Universal claim, we get:
+
+\begin{center}
+    \Large
+    $(\exists x \mid L(x)) \land (\forall y\mid (( x\neq y) \rightarrow \neg L(y)))$
+\end{center}
+
+\noindent
+Or concisely:
+
+\begin{center}
+    \Large
+    $\exists x \forall y\mid L(x) \land (( x\neq y) \rightarrow \neg L(y))$
+
+\end{center}
+
+\noindent
+Assuming monogamy, observe the claim:
+
+\begin{center}
+    \Large
+    \textit{``Every person who is married, is married to one other person.''}
+\end{center}
+
+
+Assuming the set the set of all people:
+\begin{itemize}
+    \item $R(x), x$ is married.
+    \item $M(x, y), x$ is married to $y$.
+    \item Everyone who is married = $\forall x \mid R(x)$.
+    \item Married to one other person = $\exists y \mid ((x\neq y) \land M(x, y))$.
+\end{itemize}
+
+\noindent
+We have the statement:
+
+\begin{center}
+    \Large
+    $(\forall x \mid R(x)) \rightarrow (\exists y \mid ((x\neq y) \land M(x, y)))$
+\end{center}
+
+\noindent
+Or:
+
+\begin{center}
+    \Large
+    $\forall x \exists y \mid R(x) \rightarrow ((x\neq y) \land M(x, y))$
 \end{center}
