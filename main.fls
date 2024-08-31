@@ -306,4 +306,15 @@ INPUT .\Sections\Logic\set_equivs.tex
 INPUT .\Sections\Logic\set_equivs.tex
 INPUT .\Sections\Logic\set_equivs.tex
 INPUT Sections\Logic\set_equivs.tex
+INPUT .\Sections\Logic\set_quant.tex
+INPUT .\Sections\Logic\set_quant.tex
+INPUT .\Sections\Logic\set_quant.tex
+INPUT .\Sections\Logic\set_quant.tex
+INPUT Sections\Logic\set_quant.tex
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\tuber\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT main.aux

@@ -67,22 +67,22 @@ Just like we had equivalence laws for propositions, we have equivalence laws for
 \textit{\textbf{Prove:} $A\subseteq (B\cap C) \equiv (A\subseteq B) \land (A\subseteq C)$.}
 
 \begin{center}
-    \begin{tabular}{l l m{.1mm} l m{.1mm} l l}
-        1. & $A$                                                   & $\subseteq$                            & $ (B\cap C) $                                             &  &  & \text{Given}                          \\
-        2. & \cellcolor{OliveGreen!10}$x\in A$                     & \cellcolor{OliveGreen!10}$\rightarrow$ & \cellcolor{OliveGreen!10}$ x\in (B\cap C) $               &  &  & \text{Definition of Subset}           \\
-        3. & $x\in A$                                              & $\rightarrow$                          & \cellcolor{OliveGreen!10}$ x\in B \land x\in C $          &  &  & \text{Definition of Intersection}     \\
-        4. & \cellcolor{OliveGreen!10}$x\not\in A$                 & \cellcolor{OliveGreen!10} $\lor$       & $ x\in B \land x\in C $                                   &  &  & \text{Conditional Identity}           \\
-        5. & $x\not\in A$                                          & $\lor$                                 & \cellcolor{OliveGreen!10} $ (x\in B \land x\in C )$       &  &  & \text{Clarifying Order of Operations} \\
-        6. & \cellcolor{OliveGreen!10}$x\not\in A \lor x\in B$     & \cellcolor{OliveGreen!10}$\land$       & \cellcolor{OliveGreen!10} $ (x\not\in A \lor x\in C )$    &  &  & \text{Distribution}                   \\
-        7. & \cellcolor{OliveGreen!10} $x\in A \rightarrow x\in B$ & $\land$                                & \cellcolor{OliveGreen!10} $ (x\in A \rightarrow x\in C )$ &  &  & \text{Conditional Identity}           \\
-        8. & \cellcolor{OliveGreen!10} $A \subseteq B$             & $\land$                                & \cellcolor{OliveGreen!10} $ (A \subseteq C)$              &  &  & \text{Definition of a Subset}         \\
+    \begin{tabular}{l l m{.1mm} ll}
+        1. & $A$                                                   & $\subseteq$                            & $ (B\cap C) $                                             & \text{Given}                          \\
+        2. & \cellcolor{OliveGreen!10}$x\in A$                     & \cellcolor{OliveGreen!10}$\rightarrow$ & \cellcolor{OliveGreen!10}$ x\in (B\cap C) $               & \text{Definition of Subset}           \\
+        3. & $x\in A$                                              & $\rightarrow$                          & \cellcolor{OliveGreen!10}$ x\in B \land x\in C $          & \text{Definition of Intersection}     \\
+        4. & \cellcolor{OliveGreen!10}$x\not\in A$                 & \cellcolor{OliveGreen!10} $\lor$       & $ x\in B \land x\in C $                                   & \text{Conditional Identity}           \\
+        5. & $x\not\in A$                                          & $\lor$                                 & \cellcolor{OliveGreen!10} $ (x\in B \land x\in C )$       & \text{Clarifying Order of Operations} \\
+        6. & \cellcolor{OliveGreen!10}$x\not\in A \lor x\in B$     & \cellcolor{OliveGreen!10}$\land$       & \cellcolor{OliveGreen!10} $ (x\not\in A \lor x\in C )$    & \text{Distribution}                   \\
+        7. & \cellcolor{OliveGreen!10} $x\in A \rightarrow x\in B$ & $\land$                                & \cellcolor{OliveGreen!10} $ (x\in A \rightarrow x\in C )$ & \text{Conditional Identity}           \\
+        8. & \cellcolor{OliveGreen!10} $A \subseteq B$             & $\land$                                & \cellcolor{OliveGreen!10} $ (A \subseteq C)$              & \text{Definition of a Subset}         \\
     \end{tabular}
 \end{center}
 
 \newpage
 
 \noindent
-\textbf{Clarifying steps 3}: we must read the statement and not think too literally of the symbols.
+\textbf{Clarifying step 3}: we must read the statement and not think too literally of the terms.
 We are trying to communicate an idea, not just manipulate symbols:
 \begin{itemize}
     \item read ``$x\in (B\cap C)$'' out loud.
@@ -95,7 +95,7 @@ We are trying to communicate an idea, not just manipulate symbols:
 It becomes more intuitive when you act as translator between relating ideas and definitions,
 rather than your standard algebraic math problem.\\
 
-\begin{Note}
-    \textbf{Note:} I encourage you to pick a random expression and manipulate it using the set\\
+\begin{Tip}
+    I encourage you to pick a random expression and manipulate it using the set\\
     equivalences. This is how the above example was derived.\\
-\end{Note}
+\end{Tip}

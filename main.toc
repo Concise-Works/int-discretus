@@ -9,3 +9,5 @@
 \contentsline {subsection}{\numberline {3.3}Truth Tables (CNF \& DNF)}{19}{}%
 \contentsline {subsection}{\numberline {3.4}Boolean Algebra\\ \& Logical Equivalences}{24}{}%
 \contentsline {subsection}{\numberline {3.5}Set equivalences}{29}{}%
+\contentsline {subsection}{\numberline {3.6}Set Quantifiers}{31}{}%
+\contentsline {subsection}{\numberline {3.7}Nested Quantifiers}{33}{}%

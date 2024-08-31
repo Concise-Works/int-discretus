@@ -1,0 +1,145 @@
+\subsection{Set Quantifiers}
+Set quantifiers help describe particular members of a set. Let's examine \underline{the set of
+    all musical artists.}\\
+
+\noindent
+Observe the claim:
+
+\begin{center}
+    \Large
+    \textit{``Artists that live in texas, make country music."}
+\end{center}
+
+\noindent
+This claim generalizes an entire group of artist. Perhaps not all
+Texan artists make country music. This is called a {\textbf{universal generalization}}.\\
+
+\noindent
+Using Set-Builder notation:
+\begin{itemize}
+    \item $A$, is the set of all artists.
+    \item $T(x)$, returns true if $x$ is from Texas.
+    \item $C(x)$, returns true if $x$ makes country music.
+    \item Yielding, ``for all $x\in A \mid T(x) \rightarrow C(x)$.''
+    \item Reads, \underline{``for all $x$ in $A$, if $x$ is from Texas, then $x$ makes country music.''}
+\end{itemize}
+
+\noindent
+The symbol for \underline{``For All'' is ``$\forall$''}, an upside-down ``A'', which gives us:
+
+\begin{center}
+    \Large
+    ``$\forall x \in A \mid T(x) \rightarrow C(x)$.''
+\end{center}
+
+\newpage
+
+\begin{Def}[Universal Generalization]{def:universal}
+    A claim that applies to all elements in a set.
+    Denoted: $\forall x \in A \mid P(x) \rightarrow Q(x)$, given a set $A$ and predicates $P(x)$ and $Q(x)$.
+\end{Def}
+
+\noindent
+Observe the claim:
+
+\begin{center}
+    \Large
+    \textit{``There exists an artist that lives in Texas, that makes dubstep."}
+\end{center}
+
+\noindent
+Here we describe a particular artist. This is called an {\textbf{existential instantiation}}.\\
+
+\noindent
+Using Set-Builder notation:
+\begin{itemize}
+    \item $A$, is the set of all artists.
+    \item $T(x)$, returns true if $x$ is from Texas.
+    \item $D(x)$, returns true if $x$ makes dubstep.
+    \item Yielding, ``there exists an $x\in A \mid T(x) \land D(x)$.''
+    \item Reads, \underline{``there exists an $x$ in $A$, such that $x$ is from Texas and makes dubstep.''}
+\end{itemize}
+
+\noindent
+The symbol for \underline{``There Exists'' is ``$\exists$''}, an backwards ``E'', which gives us:
+
+\begin{center}
+    \Large
+    ``$\exists x \in A \mid T(x) \land D(x)$.''\\
+\end{center}
+
+\begin{Def}[Existential Instantiation]{def:existential}
+    A claim that applies to at least one element in a set.\\
+    Denoted: $\exists x \in A \mid P(x) \land Q(x)$, given a set $A$ and predicates $P(x)$ and $Q(x)$.
+\end{Def}
+
+\noindent
+An existential claim creates the set of all elements that satisfy the claim. So there \textit{could}
+exist multiple artists that live in Texas and make dubstep.
+
+\noindent
+\subsection*{When to use $\rightarrow$ vs. $\land$:}
+\begin{itemize}
+    \item \textbf{Universal Generalization:} Uses ``$\rightarrow$'' to imply a relationship.
+    \item \textbf{Existential Instantiation:} Uses ``$\land$'' to describe qualities of a particular member.
+\end{itemize}
+
+\newpage
+
+\subsection{Nested Quantifiers}
+
+\noindent
+Consider the claim:
+
+\begin{center}
+    \Large
+    \textit{``Every artist in a record label, has someone else as their manager."}
+\end{center}
+
+\begin{itemize}
+    \item $P$, the set of all people.
+    \item $A(x)$, $x$ is an artist.
+    \item $R(x)$, $x$ has a record label.
+    \item $M(x, y)$, $y$ is $x$'s manager.
+\end{itemize}
+
+\noindent
+We are dealing with two predicates, someone who is $x$ and someone who is $y$. Breaking it down:
+\begin{itemize}
+    \item $E$ = Every artist in a record label = $\forall x \in P \mid A(x) \land R(x)$.
+    \item $S$ = Said artist has a manager =  $\exists y \in P \mid M(x, y)$.
+    \item $E$ implies $S$, so $E \rightarrow S$.
+    \item Yielding, \underline{$(\forall x \in P \mid A(x) \land R(x)) \rightarrow (\exists y \in P \mid M(x, y))$.}
+\end{itemize}
+
+\noindent
+Our final statement reads:
+
+\begin{center}
+    \Large
+    ``For all $x$ in $P$, if $x$ is an artist and has a record label, then there exists a $y$ in $P$ that is $x$'s manager.''
+\end{center}
+
+\noindent
+Or concisely:\\
+
+\begin{center}
+    \Large
+    ``For every x there exists y in P, if x is an artist and has a record label, then y is x's manager.''
+\end{center}
+
+\noindent
+Written:\\
+
+\begin{center}
+    \Large
+    $\forall x \exists y \in P \mid (A(x)\land R(x)) \rightarrow M(x,y)$
+\end{center}
+
+\noindent
+If the set is clear, we can omit syntax and write:\\
+
+\begin{center}
+    \Large
+    $\forall x \exists y \enspace (A(x)\land R(x)) \rightarrow M(x,y)$
+\end{center}
