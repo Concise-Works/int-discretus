@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1725471454.01501 "main.xdv" "main.pdf" "main" 1725471454.511 0
-  "main.xdv" 1725471453 520960 e2716e2a7697c25a303b15bb7db75f0b "xelatex"
+["xdvipdfmx"] 1725472204.32223 "main.xdv" "main.pdf" "main" 1725472204.72618 0
+  "main.xdv" 1725472204 520960 ca84a12ff2df5aa3962d6484897de4b8 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1725471451.55554 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1725471454.50373 0
+["xelatex"] 1725472201.67564 "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" "main.xdv" "main" 1725472204.71987 0
   "C:/Users/tuber/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1723738631 37603628 4b89c78e8114255c8860ac2ad127ce4e ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/tuber/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -151,10 +151,10 @@
   "Sections/Sets/intro.tex" 1725408270 408 e47947b59f874b89c2c5eadaeb0e0ce0 ""
   "Sections/Sets/operations.tex" 1725408270 4164 114aa8fa9a2f57c7384d538c50e6c6ba ""
   "Sections/Sets/summary.tex" 1725408270 1329 0ba678fcd2fd542a88cc3911763480fb ""
-  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1725466630 1079 e4db615def2e66c8ffa64c8627c47133 ""
-  "main.aux" 1725471453 6071 89683b4630e7d771cc8fd3c45651a419 "xelatex"
-  "main.tex" 1725466630 1079 e4db615def2e66c8ffa64c8627c47133 ""
-  "main.toc" 1725471453 910 3637dd6cfc5d381ce39557aafd132425 "xelatex"
+  "c:/Users/tuber/Documents/projects/not-so-discrete/main.tex" 1725472200 868 b987bed40347df11cd2f9cf3b5af55c3 ""
+  "main.aux" 1725472204 6071 89683b4630e7d771cc8fd3c45651a419 "xelatex"
+  "main.tex" 1725472200 868 b987bed40347df11cd2f9cf3b5af55c3 ""
+  "main.toc" 1725472204 910 3637dd6cfc5d381ce39557aafd132425 "xelatex"
   (generated)
   "main.aux"
   "main.log"

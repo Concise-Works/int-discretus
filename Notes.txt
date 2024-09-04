@@ -1,0 +1,30 @@
+% Quantifiers with sets -
+% Negating quantifiers -
+% show manipulating sets with boolean alg -
+% equivalence relations
+% show functional completeness
+% tautologies and contradictions etc.
+% contrapositive, converse, inverse
+% modus ponens, modus tollens
+% Necessary and sufficient conditions
+% series and sequences
+% proofs
+    % intro math definitions, get them to think about the definitions, what is def of Union, what is def of even number, etc.
+    % Direct proofs, proof by cases
+    % modular arithmetic
+    % direct proofs on modular arithmetic
+    % series and sequences
+        % well ordering principle
+    % proofs by induction
+        % weak induction
+        % strong induction
+        % structural induction
+    % proof by contradiction
+    % proof by contrapositive
+    % proof by exhaustion
+    % what is a conjecture
+% counting
+    % permutations
+    % combinations
+    % binomial theorem
+    % pigeonhole principle
