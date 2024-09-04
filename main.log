@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  31 AUG 2024 16:34
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.15)  4 SEP 2024 13:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1548,9 +1548,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
 
 
-[33])
+[33]
 
-[34] (main.aux)
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+
+
+[35]) (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
@@ -1561,12 +1573,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17337 strings out of 409029
- 341623 string characters out of 5756741
+ 17339 strings out of 409029
+ 341668 string characters out of 5756741
  1937612 words of memory out of 5000000
- 39675 multiletter control sequences out of 15000+600000
+ 39677 multiletter control sequences out of 15000+600000
  566070 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,10n,110p,585b,994s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,110p,585b,994s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (34 pages, 510104 bytes).
+Output written on main.xdv (35 pages, 520960 bytes).

@@ -93,7 +93,7 @@ Consider the claim:
 
 \begin{center}
     \Large
-    \textit{``Every artist in a record label, has someone else as their manager."}
+    \textit{``Every artist in a record label, has someone as their manager."}
 \end{center}
 
 \begin{itemize}
@@ -220,3 +220,82 @@ Or:
     \Large
     $\forall x \exists y \mid R(x) \rightarrow ((x\neq y) \land M(x, y))$
 \end{center}
+
+\newpage
+
+\subsection*{Negating Quantifiers}
+When negating quantifiers, the same rules of De Morgan's Law apply:\\
+
+\begin{tabular}{|c|c|c|}
+    \hline
+    \cellcolor{OliveGreen!10}\multirow{2}{*}                                                & $\neg(p\lor q) \equiv \neg p \land \neg q$             &
+    $\neg(p\land q) \equiv \neg p \lor \neg q$
+    \\
+    \cellcolor{OliveGreen!10}\raisebox{.8\normalbaselineskip}[0pt][0pt] {De Morgan's Laws:} & $\overline{A\cup B} =  \overline{A} \cup \overline{B}$ &
+    $\overline{A\cap B} = \overline{A} \cup \overline{B}$                                                                                              \\
+    \hline
+\end{tabular}
+
+\vspace{1em}
+The \textbf{new rule}:\\
+
+\begin{tabular}{|c|c|c|}
+    \hline
+    \cellcolor{OliveGreen!10}\multirow{2}{*}                                                     & $\neg\left(\forall x \in A \mid P(x)\right)\enspace \equiv \enspace \exists x \in A \mid \neg P(x)$ \\
+    \cellcolor{OliveGreen!10}\raisebox{.8\normalbaselineskip}[0pt][0pt]  {Negating Quantifiers:} & $\neg\left(\exists x \in A \mid P(x)\right)\enspace \equiv \enspace \forall x \in A \mid \neg P(x)$ \\
+    \hline
+\end{tabular}
+
+\vspace{1em}
+\noindent
+i.e., \underline{`$\forall$' becomes `$\exists$' and vice versa.}\\
+Take the claim:
+
+\begin{center}
+    \Large
+    \textit{``Every artist in a record label, has someone as their manager."}
+\end{center}
+
+\begin{center}
+    \Large
+    $\forall x \exists y \in P \mid (A(x)\land R(x)) \rightarrow M(x,y)$
+\end{center}
+
+\noindent
+negating:
+
+\begin{center}
+    \Large
+    $\neg\left(\forall x \exists y \in P \mid (A(x)\land R(x)) \rightarrow M(x,y)\right)$
+\end{center}
+
+\begin{center}
+    \begin{tabular}{l l l}
+        1. & $\neg\left(\forall x \exists y \in P \mid (A(x)\land R(x)) \rightarrow M(x,y)\right)$                                                                         & \text{Given}                \\
+        2. & $\colorbox{OliveGreen!10}{$\exists x\forall y$} \in P \mid \colorbox{OliveGreen!10}{$\neg($}(A(x)\land R(x)) \rightarrow M(x,y)\colorbox{OliveGreen!10}{$)$}$ & \text{Negating Quantifiers} \\
+        3. & $\exists x\forall y \in P \mid \neg(\colorbox{OliveGreen!10}{$\neg$}(A(x)\land R(x)) \colorbox{OliveGreen!10}{$\lor$} M(x,y))$                                & \text{Conditional identity} \\
+        4. & $\exists x\forall y \in P \mid \colorbox{OliveGreen!10}{$\neg\neg$}(A(x)\land R(x)) \colorbox{OliveGreen!10}{$\land \neg$} M(x,y)$                            & \text{De Morgan's Laws}     \\
+        5. & $\exists x\forall y \in P \mid \colorbox{OliveGreen!10}{$\enspace($}A(x)\land R(x)) \land \neg M(x,y)$                                                        & \text{Double negation}      \\
+    \end{tabular}
+\end{center}
+
+yielding:
+
+\begin{center}
+    \Large
+    $\exists x\forall y \in P \mid (A(x)\land R(x)) \land \neg M(x,y)$
+\end{center}
+
+i.e.:
+
+\begin{center}
+    \Large
+    \textit{``There exists an artist in a record label, that has no manager.''}
+\end{center}
+
+\begin{Note}
+    \textbf{Note:} The manager could be the artist themselves, there's no condition against it unlike the previous example.
+\end{Note}
+
+\newpage
+
